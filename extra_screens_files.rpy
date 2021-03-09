@@ -99,68 +99,68 @@ screen mobileFilesMenu():
                 if FileType == 'Contracts':
                     if Contract == "AsterionSentence":
                         vbox spacing 10:
-                            text "{i}{size=+2}Asterion's Sentence" xalign 0.5
+                            text "{i}{size=+2}Sentença de Asterion" xalign 0.5
                             text ""
-                            text "{i}Hereby the gods of Olympus sentence the Prisoner Asterion to eternal damnation for his meekness and cowardice in the face of adversity."
-                            text "{i}With this sentence his prison is created, a Labyrinth born out of the gods' ichor."
-                            text "{i}The Labyrinth shall welcome lost mortals with nowhere to go. Among them, a Jailer will be picked to command and rewrite the realm."
-                            text "{i}The Jailer and the Labyrinth's mission is to secure the Prisoner's eternal torture."
-                            text "{i}The Jailer shall enjoy power and freedom to rewrite the Labyrinth as to better enact his vision."
-                            text "{i}Asterion of Crete, adopted son to King Minos, and every drop of his blasphemous blood is hereby sentenced to the Labyrinth."
-                            text "{i}By this decree the gods' will is done."
+                            text "{i}Por meio deste, os deuses do Olimpo sentenciam o Prisioneiro Astério à danação eterna por sua mansidão e covardia em face à adversidade."
+                            text "{i}Com esta sentença, sua prisão é criada, um Labirinto nascido do icor dos deuses."
+                            text "{i}O Labirinto deve acolher mortais perdidos sem nenhum lugar para ir. Entre eles, um Carcereiro será escolhido para comandar e reescrever o domínio."
+                            text "{i}A missão do Carcereiro e do Labirinto é garantir a tortura eterna do Prisioneiro."
+                            text "{i}O Carcereiro gozará de poder e liberdade para reescrever o Labirinto da forma que melhor enaltecer seu ponto de vista."
+                            text "{i}Astério de Creta, filho adotivo do Rei Minos, e cada gota de seu sangue blasfemo é, por meio deste, condenado ao Labirinto."
+                            text "{i}Por meio deste decreto, a vontade dos deuses é realizada."
                     elif Contract == "Servitude":
                         vbox spacing 10:
-                            text "{i}{size=+2}Asterion's Oath of Servitude" xalign 0.5
+                            text "{i}{size=+2}Juramento de Servidão de Astério" xalign 0.5
                             text ""
-                            text "{i}By the provisions under the Statute of Joseph the Merciful, the Prisoner Asterion pledges loyalty and servitude to the Labyrinth's Master."
-                            text "{i}The Prisoner is made Keeper of the Hotel above the valley, and is bequeathed the power to realize the Master's will."
-                            text "{i}The Master in turn binds the Labyrinth, forbidding its malicious entities from leaving said valley."
-                            text "{i}The realm was engineered to torture the Prisoner, and indeed its mission shall be accomplished. The Prisoner will carry the burden of servitude, but shall not suffer the Labyrinth's wrath within the Hotel's territory."
-                            text "{i}The Prisoner, shielded by his Master's will, is made safe as long as his duty is fulfilled, under the terms of the Statute."
+                            text "{i}Pelas provisões sob o Estatuto de José, o Misericordioso, o Prisioneiro Astério promete lealdade e servidão ao Mestre do Labirinto."
+                            text "{i}O Prisioneiro é instituído Zelador do Hotel acima do vale e lhe é legado o poder de realizar a vontade do Mestre."
+                            text "{i}O Mestre, por sua vez, restringe o Labirinto, proibindo suas entidades maliciosas de deixarem dito vale."
+                            text "{i}O domínio foi projetado para torturar o Prisioneiro e, de fato, sua missão deve ser cumprida. O Prisioneiro carregará o fardo da servidão, mas não sofrerá a ira do Labirinto dentro do território do Hotel."
+                            text "{i}O Prisioneiro, amparado pela vontade de seu Mestre, fica seguro desde que cumpra seu dever, sob os termos do Estatuto"
 
                     elif Contract == "ArgosContract":
                         vbox spacing 10:
                             text "{i}{size=+2}Contrato de Argos" xalign 0.5
                             text ""
-                            text "{i}This document binds the Master of the Labyrinth and the snake known as Argos Panoptes, henceforth referred to as \"the Foreman\", together in an agreement."
-                            text "{color=[UIColorOrange]}{i}Article One."
-                            text "{i}The Master leases to the Foreman the authority to summon food, water, shelter, and furniture for use however he sees fit, including for the benefit of the cultivation of crops and raising of animals."
-                            text "{i}In return, the Foreman leases the Mirror of Hestia for the Master's use however he sees fit, including for the benefit and maintenance of the structure known as \"The Hotel\" as established in previous contracts."
-                            text "{color=[UIColorOrange]}{i}Article Two."
-                            text "{i}The Master and the lessee shall refrain from bringing harm to the other, directly and indirectly, by means including but not limited to violence, incentivizing or rewarding third parties towards aggression against the other, sabotaging structures, poisoning food and water, among others."
-                            text "{color=[UIColorOrange]}{i}Article Three."
-                            text "{i}The Master is forbidden from directly and indirectly interfering with the the full enjoyment of the Foreman's rights granted under this contract. The Foreman is similarly forbidden from bringing harm to \"The Hotel.\""
-                            text "{color=[UIColorOrange]}{i}Article Four."
-                            text "{i}The Master is allowed to conduct inspections on the Foreman's accommodations, save for the Foreman's personal quarters, whose access is forbidden."
-                            text "{i}The Foreman is forbidden from conspiring against the Master and shall not use the rights granted by this Contract to bring him harm. The Master and Foreman are symmetrically bound this Article, including but not limited to not using Hestia's Mirror to bring harm to the Foreman."
-                            text "{color=[UIColorOrange]}{i}Article Five."
-                            text "{i}This contract is self-enforcing. If any of its articles are broken then possession of Hestia's Mirror reverts to the Foreman and any flame lit by the Mirror is put out."
-                            text "{i}At the same time the Foreman loses the rights transferred by the contract and any and all structures summoned by him cease to exist after a 10 minute interval to allow for evacuation."
-                            text "{color=[UIColorOrange]}{i}Article Six."
-                            text "{i}This self-enforcing contract is made effective at the moment of its signing, and remains valid during the Master's reign and until the following Master acquires the Hotel's Deed."
-                            text "{i}By the will of the Master, to whom the Olympians' reign over the realmwas granted, this contract is established."
+                            text "{i}Este documento compromete o Mestre do Labirinto e a cobra conhecida como Argos Panoptes, de agora em diante referido como \"o Capataz\", juntos em um acordo."
+                            text "{color=[UIColorOrange]}{i}Artigo Um."
+                            text "{i}O Mestre aluga ao Capataz a autoridade para invocar comida, água, abrigo e mobília para uso como ele achar adequado, inclusive para o benefício do cultivo de safras e a criação de animais."
+                            text "{i}Em retorno, o Capataz aluga o Espelho de Héstia para uso do Mestre como ele achar adequado, inclusive para o benefício e manutenção da estrutura conhecida como \"Hotel\", conforme estabelecido em contratos anteriores."
+                            text "{color=[UIColorOrange]}{i}Artigo Dois."
+                            text "{i}O Mestre e o arrendatário devem abster-se de causar danos um ao outro, direta e indiretamente, por meios incluindo, mas não limitados à violência, incentivando ou recompensando terceiros à agressão mútua, sabotando estruturas, envenenando alimentos e água, entre outros."
+                            text "{color=[UIColorOrange]}{i}Artigo Três."
+                            text "{i}O Mestre é proibido de interferir direta ou indiretamente no pleno gozo dos direitos do Capataz concedidos neste contrato. O Capataz é similarmente proibido de causar danos ao \"Hotel.\""
+                            text "{color=[UIColorOrange]}{i}Artigo Quatro."
+                            text "{i}O Mestre está autorizado a fazer inspeções nas acomodações do Capataz, exceto em seus aposentos pessoais, cujo acesso é proibido."
+                            text "{i}O Capataz está proibido de conspirar contra o Mestre e não deve usar os direitos garantidos por este Contrato para prejudicá-lo. O Mestre e o Capataz estão simetricamente comprometidos a este Artigo, incluindo, mas não limitando-se a não usar o Espelho de Héstia para causar danos ao Capataz."
+                            text "{color=[UIColorOrange]}{i}Artigo Cinco."
+                            text "{i}Este contrato é auto-impositivo. Se qualquer um de seus artigos for quebrado, a posse do Espelho de Héstia reverte para o Capataz e qualquer chama acesa pelo Espelho é apagada."
+                            text "{i}Ao mesmo tempo, o Capataz perde os direitos transferidos pelo contrato e toda e qualquer estrutura por ele invocada deixa de existir após um intervalo de 10 minutos para permitir a evacuação."
+                            text "{color=[UIColorOrange]}{i}Artigo Seis."
+                            text "{i}Este artigo auto-impositivo entra em vigor no momento de sua assinatura e permanece válido durante o comando do Mestre e até que o Mestre posterior adquira a Escritura do Hotel."
+                            text "{i}Pela vontade do Mestre, a quem o comando dos Olímpios sobre o domínio foi concedido, este contrato é estabelecido."
 
                     elif Contract == "Rings":
                         vbox spacing 10:
-                            text "{i}{size=+2}Oath of the Binding Rings" xalign 0.5
+                            text "{i}{size=+2}Juramento dos Anéis Vinculativos" xalign 0.5
                             text ""
-                            text "A blasphemous contract that defies the gods' will, proposed by the prisoner in an attempt to reveal the Master's truest intentions."
-                            text "In its first incarnation the lead ring was imposed on the prisoner and set to trigger if impossible conditions were not met. But, much like the very realm where the hotel was built, its purpose has been corrupted and subverted by humanity."
-                            text "Perhaps there is wisdom in that ancient memory that a redeemer takes on the shackles of those he liberates. Contemporary humanity, however, would instead find virtue in a lord who willfully limits himself from using his power."
+                            text "Um contrato blasfemo que desafia a vontade dos deuse, proposto pelo prisioneiro na tentativa de revelar as verdadeiras intenções do Mestre."
+                            text "Em sua primeira encarnação, o anel de chumbo foi feito para ativar se condições impossíveis não fossem atendidas. Mas, assim como o próprio domínio onde o hotel foi construído, seu propósito foi corrompido e subvertido pela humanidade."
+                            text "Talvez haja sabedoria na memória antiga de que um redentor assume as algemas daqueles que ele liberta. A humanidade contemporânea, no entanto, encontraria virtude em um senhor que voluntariamente limita seu próprio poder."
                             text ""
-                            text "{i}By the will of the Labyrinth's Master this binding contract is established, so it may enforce its contents upon the world and its people."
-                            text "{i}Hereby the Master commands into existence two linked objects: a lead ring to fit around a man's bicep, and a laurel wreath as wide as the prisoner's arm."
-                            text "{i}These two objects shall be linked in cause and effect, as will their wearers."
-                            text "{i}Whoever dons the lead ring will find it impossible to be removed, except through the revoking of this contract."
-                            text "{i}Whoever first dons the laurel wreath shall become its permanent and unchangeable owner."
-                            text "{i}If the owner of the laurel wreath is ever made to go to the Labyrinth's valley —either by coercion, command, or forcing— then the lead ring shall constrict and close as to amputate its bearer’s arm."
-                            text "{i}By the Master's will, this contract may only be revoked if all its parties — bearer of the lead ring, owner of the laurel wreath, and the two eyewitnesses present during its signing — consent to it."
-                            text "{i}Such is the Master's will."
+                            text "{i}Pela vontade do Mestre do Labirinto este contrato vinculativo é estabelecido, para que possa impor seu conteúdo ao mundo e seu povo."
+                            text "{i}Por meio deste, o Mestre comanda à existência dois objetos interligados: um anel de chumbo para ajustar-se ao redor do bíceps de um homem e uma guirlanda de louros da largura do braço do prisioneiro."
+                            text "{i}Estes dois objetos devem estar ligados em causa e efeito, assim como seus portadores."
+                            text "{i}Aquele que vestir o anel de chumbo se encontrará em uma situação onde removê-lo será impossível, exceto mediante à revogação deste contrato."
+                            text "{i}Quem primeiro vestir a coroa de louros se tornará seu proprietário permanente e imutável."
+                            text "{i}Se o dono da coroa de louros alguma vez for levado para o vale do Labirinto —seja por coerção, ordem, ou força— então o anel de chumbo virá a contrair e fechar de forma a amputar o braço de seu portador."
+                            text "{i}Pela vontade do Mestre, este contrato poderá ser revogado apenas se todas as suas partes — portador do anel de chumbo, dono da coroa de louros, e as duas testemunhas presentes durante a sua assinatura — o consentirem."
+                            text "{i}Tal é a vontade do Mestre."
 
                 if FileType == 'Mementos':
                     if Memento == "Tablet1":
                         vbox spacing 10:
-                            text "{i}{size=+2}First Tablet: Crescent Moon" xalign 0.5
+                            text "{i}{size=+2}Primeira Tábua: Lua Crescente" xalign 0.5
                             text ""
                             text "A clay tablet narrating a dutiful son's journey to Crete."
                             text "In Ancient times even a short trip would take years. Braving the sea always held the threat of death, so travel was reserved for blood-thirsty warriors, ambitious merchants and desperate wretches."
