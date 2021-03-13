@@ -156,7 +156,7 @@ screen mobileFilesMenu():
                             text "{i}Se o dono da coroa de louros alguma vez for levado para o vale do Labirinto —seja por coerção, ordem, ou força— então o anel de chumbo virá a contrair e fechar de forma a amputar o braço de seu portador."
                             text "{i}Pela vontade do Mestre, este contrato poderá ser revogado apenas se todas as suas partes — portador do anel de chumbo, dono da coroa de louros, e as duas testemunhas presentes durante a sua assinatura — o consentirem."
                             text "{i}Tal é a vontade do Mestre."
-
+                            
                 if FileType == 'Mementos':
                     if Memento == "Tablet1":
                         vbox spacing 10:
@@ -165,7 +165,7 @@ screen mobileFilesMenu():
                             text "Uma tábua de argila narrando a jornada de um filho cordial a Creta."
                             text "Em tempos antigos, mesmo uma viagem curta levaria anos. Enfrentar o oceano sempre carregou a ameaça de morte, portanto, a viagem era reservada para guerreiros sedentos por sangue, mercadores ambiciosos e miseráveis desesperados."
                             text "Esta tábua é decorada com padrões de lua crescente imperfeitos. Aquele que os esculpiu desprovia do talento do artesão, mas não de seu carinho."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}Cortou através do pescoço de meu pai como o açafrão colhido a foice destas margens rochosas,"
                             text "{i}aquela lua crescente despretensiosa, nascida do brilho de Hefesto e da turbulência de Zeus."
@@ -192,7 +192,7 @@ screen mobileFilesMenu():
                             text "Era uma vez um homem chamado Minos, filho de Zeus e Europa. Ele fundou Creta, o estado-ilha do qual a cultura grega descende. As lendas falam muito bem sobre a virtude do monarca, dito ter conquistado seu lugar entre os juízes de Hades após a morte."
                             text "Gerações mais tarde, no entanto, outro Minos assumiria o trono, um com uma disposição que irritava os deuses e homens de modo parecido."
                             text "Esta tábua é decorada com desenhos simples da cabeça de uma cabra selvagem. Seus chifres erguem-se orgulhosos, emoldurando uma única estrela solitária."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}Titono era meu pai, sua era a mão a qual me ensinou a navegar nestas águas abundantes."
                             text "{i}Juntos, perseguimos e lançamos flechas contra auroques no solo avermelhado e úmido o qual fizemos nosso banquete."
@@ -217,7 +217,7 @@ screen mobileFilesMenu():
                             text "Uma tábua de argila narrando uma rara audiência com um antigo rei."
                             text "Colunas carmesim ainda se encontram nos locais antigos de Creta, uma memória duraroura de uma época derradeira. O labiríntico Palácio de Cnossos, embora consumido e apodrecido, durou mais tempo que reis e deuses."
                             text "Esta tábua é decorada com padrões repetitivos de colunas, mas um exame minucioso revela traços de um raro e precioso tesouro pulverizado sobre ela: açafrão."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}O Rei Minos, no topo de seu palácio carmesim, se recusou a nos conceder uma audiência,"
                             text "{i}mas a passos rápidos eu cacei os íbex selvagem de sua costa e celebrei com seu povo."
@@ -248,12 +248,12 @@ screen mobileFilesMenu():
                             text "Uma tábua de argila narrando a intervenção de uma jovem preocupada."
                             text "Os tempos antigos eram governados pelo princípio de que a força faz o certo. Mulheres que desejavam impor sua vontade ao mundo tiveram que contar com subterfúgios e inteligência."
                             text "Esta tábua é decorada com uma única linha em sua parte inferior, a silhueta do Monte Egeão; o local onde, diz a lenda, Zeus foi criado."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}Quando o verão chegou e o Rei Minos ainda não havia nos concedido sua bênção"
                             text "{i}uma jovem mulher entrou sorrateiramente em nossa tenda e me contou sobre o labirinto"
                             text "{i}— no pé de uma montanha, a mesma onde Zeus passou sua juventude —"
-                            text "{i}onde encontraríamos um temível híbrido, um demônio nascido do caso da rainha com uma fera."
+                            text "{i}onde encontraríamos um temível híbrido, um monstro nascido do caso da rainha com uma fera."
                             text ""
                             text "{i}Durante minhas tardes de colheita de açafrão, as esposas falaram-me de tal besta,"
                             text "{i}outrora conhecida como uma divindade da prosperidade exibida pelo Rei Minos,"
@@ -261,7 +261,7 @@ screen mobileFilesMenu():
                             text "{i}Ele, disse a jovem, guarda o Lábris de Creta,"
                             text "{i}presente de Zeus para seu local de nascimento, bem no centro do labirinto."
                             text ""
-                            text "{i}\"Busque o demônio almaldiçoado no coração do mundo,"
+                            text "{i}\"Busque o monstro almaldiçoado no coração do mundo,"
                             text "{i}no santuário carmesim ele guarda o machado capaz de cortar a linha vital."
                             text "{i}Mas saiba, bastardo de Troia, que somente aqueles inspirados pelo divino"
                             text "{i}podem levantá-lo — ore pela bênção de Atena."
@@ -275,14 +275,14 @@ screen mobileFilesMenu():
 
                     if Memento == "Tablet5":
                         vbox spacing 10:
-                            text "{i}{size=+2}Quinta Tábua: Demônio" xalign 0.5
+                            text "{i}{size=+2}Quinta Tábua: Monstro" xalign 0.5
                             text ""
                             text "Uma tábua de argila narrando o encontro de um homem com outro de natureza divina."
                             text "Para os gregos, ser um híbrido é ser um monstro. Os dois são indissociáveis."
                             text "Divino ou não, um híbrido é um ser abominável e repulsivo que boas pessoas fariam bem ao ostracizar."
                             text "Esta tábua é decorada com linhas labirínticas em suas margens."
                             text "Uma tábua de argila narrando uma intervenção de um jovem preocupado."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}No sopé do Monte Egeão, no planalto Lasiti, eu encontrei o labirinto,"
                             text "{i}uma antiga estrutura pintada com o mesmo carmesim do Palácio de Cnossos,"
@@ -294,7 +294,7 @@ screen mobileFilesMenu():
                             text "{i}com o conforto de saber que, mesmo se eu falhasse, sua dor ainda cessaria."
                             text "{i}Por três dias e três noites nós vagamos, ouvindo apenas o canto das cigarras"
                             text "{i}e o bater de cascos distantes, sempre fora de alcance."
-                            text "{i}O demônio brincou conosco, nunca dando as caras."
+                            text "{i}O monstro brincou conosco, nunca dando as caras."
                             text "{i}Eu temia que a fome tirasse minha vida e chorei pela de meu pai."
                             text ""
                             text "{i}No quarto dia, a criatura apareceu, o monstro híbrido de Pasífae."
@@ -314,7 +314,7 @@ screen mobileFilesMenu():
                             text "Os gregos tinham muitos costumes e normas as quais ditavam como um hóspede deveria ser tratado. Naqueles tempos antigos, deuses disfarçados andavam entre os homens, então era esperado que um anfitrião tratasse seus convidados com o respeito que o divino merecia."
                             text "Trazer desgraça para a casa de um anfitrião era uma atrocidade imperdoável que certamente inspiraria maldições sobre a linhagem de uma pessoa."
                             text "Esta tábua é adornada com representações de um templo, ou talvez um santuário. Um touro massacrado encontra-se em sua entrada."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}Eu cacei a panturrilha do arqueiro, mas na verdade fui feito uma presa."
                             text "{i}Na quarta noite, eu desabei. Apenas então o menino revelou-se"
@@ -350,7 +350,7 @@ screen mobileFilesMenu():
                             text "Uma tábua de argila narrando uma pequena tragédia da loucura humana."
                             text "O corpo é um recipiente dado pelos deuses, sabendo muito bem que é o destino humano ser destroçado, quebrado e mutilado. Deixe a dor levá-lo embora, para que serve o sofrimento humano senão um pequeno desvio na existência de um deus?"
                             text "Esta tábua não possui adornos."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}O híbrido guiou eu e meu pai a um santuário carmesim —"
                             text "{i}uma morada de pedra abrigando uma piscina rasa de águas claras,"
@@ -374,7 +374,7 @@ screen mobileFilesMenu():
                             text "Uma tábua de argila retratando uma cena de traição."
                             text "Mães frequentemente alertam seus filhos para que não falem com estranhos. A mãe deste príncipe, no entanto, há muito desistiu das palavras e caiu em uma loucura de lamentações. Largado sozinho, muitas lições importantes nunca foram ensinadas a ele."
                             text "Esta tábua é adornada com um padrão decorativo tradicional de Creta, o machado de duas cabeças."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}Por três dias e três noites, me recuperei de minhas queimaduras."
                             text "{i}O híbrido voluntariamente assumiu o papel de cuidador de meu pai e de mim."
@@ -417,7 +417,7 @@ screen mobileFilesMenu():
                             text "Uma tábua de argila narrando uma pequena tragédia da loucura humana."
                             text "A música dura por apenas um momento, mas pode ser guardada para sempre na mente de alguém."
                             text "Esta tábua é adornada com o desenho de uma lira. O processo de cozimento, porém, fez com que os fios se rompessem."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}Muitas noites passamos naquele santuário carmesim,"
                             text "{i}confortados pela lira do menino e pela chama da bacia."
@@ -464,7 +464,7 @@ screen mobileFilesMenu():
                             text "Uma tábua de argila revelando um bastardo tentando um jovem devoto a se afastar para longe de seu dever."
                             text "Creta não é conhecida por suas cobras venenosas. Não é nenhuma surpresa, então, que aquele que tentaria um príncipe a se afastar de seu dever veio do outro lado do mar."
                             text "Esta tábua é adornada com padrões parecidos com ondas."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}\"A costa não está longe, muito menos os açafrões pelos quais esta ilha é conhecida."
                             text "{i}Deixe-nos partir amanhã ao romper da madrugada, eu segurarei sua mão"
@@ -500,7 +500,7 @@ screen mobileFilesMenu():
                             text ""
                             text "Uma tábua de argila revelando uma das muitas tragédias que levaram à morte do menino."
                             text "Esta tábua de argila é adornada com padrões decorativos de flores, que racharam e se deformaram durante o processo de cozimento."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}A noite se estendia em diante, um véu de medo e escuridão nos cobriu."
                             text "{i}Um fogo transbordou em meu peito, talvez no dele também."
@@ -548,7 +548,7 @@ screen mobileFilesMenu():
                             text "Uma tábua de argila revelando a natureza suja de um híbrido."
                             text "Ser um híbrido é ser amaldiçoado com uma vida de infortúnios muito maiores que os de qualquer mortal."
                             text "Esta tábua de argila é adornada com padrões decorativos de fogo, embora o processo de cozimento os tenha deformado e distorcido."
-                            text "Na tábua se lê:"
+                            text "Na tábua está contido:"
                             text ""
                             text "{i}Astério de chifres imaculados manteve sua palavra; nossas tardes foram gastas treinando"
                             text "{i}bem como meu próprio pai me ensinou o equilíbrio e os golpes de cada arma."
@@ -996,102 +996,102 @@ screen mobileFilesMenu():
                         vbox spacing 10:
                             text "{i}{size=+2}Ágape, Eros, Filia" xalign 0.5
                             text ""
-                            text "An epigram written to a Roman Pagan or gnostic, pontificating on their conquest of the Greeks."
-                            text "As usual with all foreign written language in the labyrinth, the letters shift as you focus your eyes on them, making the piece of parchment legible."
-                            text "However, you could swear that some of the glyphs that all now refer to the same words looked different to you a moment ago."
+                            text "Um epigrama escrito para um pagão romano ou gnóstico, pontificando sua conquista dos gregos."
+                            text "Como de costume com todas as línguas estrangeiras escritas no labirinto, as letras mudam conforme você focaliza seus olhos nelas, tornando o pedaço de pergaminho legível."
+                            text "No entanto, você poderia jurar que alguns dos glifos que agora se referem às mesmas palavras pareciam diferentes para você um momento atrás."
                             text ""
-                            text "{i}\"    'But love's not love it's more like love,' he told"
-                            text "{i}me, using words from my own tongue, from us"
-                            text "{i}imported. What compartmentalizing"
-                            text "{i}these Romans do! They speak as if the dusk"
-                            text "{i}was not yet still the sun!"
+                            text "{i}\"    'Mas amor não é amor, é mais como amor, ele me"
+                            text "{i}disse, usando palavras da minha própria língua, de nós"
+                            text "{i}importado. Que compartimentalização"
+                            text "{i}esses romanos fazem! Eles falam como se o crepúsculo"
+                            text "{i}não fosse ainda assim o sol!"
                             text ""
-                            text "{i}    They took our gods,"
-                            text "{i}remade, refashioned, mixed up meanings, names —"
-                            text "{i}a pantheon of mush. This first, but then"
-                            text "{i}these men with garum doused and drowned our food."
-                            text "{i}And now, they lecture me on our own words…\""
+                            text "{i}    Eles levaram nossos deuses,"
+                            text "{i}refizeram, remodelaram, misturaram os significados, nomes —"
+                            text "{i}um panteão de desordem. Isto primeiro, mas então"
+                            text "{i}esses homens, com garo, encharcaram e afogaram nossa comida."
+                            text "{i}E agora, eles me dão sermão usando nossas próprias palavras…\""
 
                     if Memento == "FieldWork":
                         vbox spacing 10:
-                            text "{i}{size=+2}Torn illustrated page" xalign 0.5
+                            text "{i}{size=+2}Página ilustrada rasgada" xalign 0.5
                             text ""
-                            text "An old, yellowed sheet of paper with one of its edges ripped off. You assume it's a page torn off an old book."
-                            text "The page is adorned with an illustration of a minotaur ploughing a field, in colorful blue and gold ink."
+                            text "Um pedaço de papel antigo e amarelado com uma das pontas arrancadas. Você presume que seja uma página arrancada de um livro antigo."
+                            text "A página é adornada com uma ilustração de um minotauro arando um campo em tinta colorida azul e dourada."
                             if not main_menu:
                                 if player_background in ['humanities', 'arts']:
-                                    text "An poem is written in red ink below the illustration. You recognize it is written using the Greek alphabet; this, compounded with the style and framing of the illustration, would date this page around the Bizantine era."
+                                    text "Um poema está escrito em tinta vermelha abaixo da ilustração. Você reconhece que foi escrito usando o alfabeto grego; isto, combinado com o estilo e moldura da ilustração, dataria esta página por volta da era Bizantina."
                                 else:
-                                    text "An poem is written in red ink below the illustration. It is written in a language foreign to you, but the letters shift as you focus your eyes, making the piece of parchment legible."
+                                    text "Um poema está escrito em tinta vermelha abaixo da ilustração. É escrito em um idioma estranho para você, mas as letras se alteram à medida que você foca seus olhos, tornando o pedaço de papel legível."
                             else:
-                                text "An poem is written in red ink below the illustration. It is written in a language foreign to you, but the letters shift as you focus your eyes, making the piece of parchment legible."
-                            text "It's an ode to field work, rather than carousing:"
+                                text "Um poema está escrito em tinta vermelha abaixo da ilustração. É escrito em um idioma estranho para você, mas as letras se alteram à medida que você foca seus olhos, tornando o pedaço de papel legível."
+                            text "É uma ode ao trabalho no campo, ao invés de farra:"
                             text ""
-                            text "{i}    \"Wild oats! What use is there in that? What makes"
-                            text "{i}a man himself is well worked usefulness"
-                            text "{i}in fields of help and aid and produce made."
-                            text "{i}    Well tended, these halls maybe rows become"
-                            text "{i}at whim of Master. Fertile fields extend"
-                            text "{i}with hoof-trod handiwork, well-roofed with sky,"
-                            text "{i}    through halls of wheat and corn and oat that not"
-                            text "{i}a Perses, dull, could stand to leave untilled."
-                            text "{i}The readied field willed good, not wild, by hand.\""
+                            text "{i}    \"Aveia selvagem! Qual a utilidade disto? O que faz"
+                            text "{i}o próprio homem é a utilidade bem trabalhada"
+                            text "{i}nos campos de ajuda e assistência e dos produtos feitos."
+                            text "{i}    Bem cuidados, estes corredores talvez tornem-se filas"
+                            text "{i}por capricho do Mestre. Campos férteis estendem-se"
+                            text "{i}com trabalhos manuais pisoteados, bem cobertos com céu,"
+                            text "{i}    através de corredores de trigo, milho e aveia os quais"
+                            text "{i}nenhum Perses, estúpido, poderia deixar sem cultivar."
+                            text "{i}O campo preparado legava bondade, não selvageria, pela mão.\""
 
                     if Memento == "FoldedNote":
                         vbox spacing 10:
-                            text "{i}{size=+2}Folded Note" xalign 0.5
+                            text "{i}{size=+2}Nota Dobrada" xalign 0.5
                             text ""
-                            text "An epigram written to a wordy, forward, active, and mercurial former master."
-                            text "When asking Asterion about the note, he sadly explains that he recalls having said the last line after not being able to keep up with the master, which delighted him. He demanded a poem out of it."
+                            text "Um epigrama escrito para um ex-mestre prolixo, direto, ativo e volátil."
+                            text "Ao perguntar a Astério sobre a nota, com pesar, ele explica que se lembra de ter dito o último verso depois de não conseguir acompanhar o mestre, o que o deixou encantado. Ele exigiu um poema disso."
                             text ""
-                            text "{i}\"Stop, please, oh Lord of mine —"
-                            text "{i}Fast speaker, mover bold,"
-                            text "{i}Deft organizer — slow:"
-                            text "{i}I listen far too fast.\""
+                            text "{i}\"Pare, por favor, ó, meu senhor —"
+                            text "{i}Rapido falante, movente audacioso,"
+                            text "{i}Organizador hábil — lento:"
+                            text "{i}Eu ouço rápido demais.\""
 
                     if Memento == "Selene":
                         vbox spacing 10:
-                            text "{i}{size=+2}Handwritten scrawl" xalign 0.5
+                            text "{i}{size=+2}Rabisco de caligrafia" xalign 0.5
                             text ""
-                            text "An epigram written to Selene with crude handwriting."
+                            text "Um epigrama escrito para Selena com uma caligrafia grosseira."
                             text ""
-                            text "{i}\"The Moon is pallid, out-of-focus, hook'd."
-                            text "{i}The city clouds the stars, while vapour veils the moon,"
-                            text "{i}I rush under its side-long smile.\""
+                            text "{i}\"A Lua está pálida, fora de foco, fisgada."
+                            text "{i}A cidade anuvia as estrelas, enquanto o vapor cobre a lua,"
+                            text "{i}Eu corro sob seu largo sorriso.\""
 
 
                 if FileType == 'Artifacts':
                     if Artifact == "Wine":
                         vbox spacing 10:
-                            text "{i}{size=+2}Wine bottle" xalign 0.5
+                            text "{i}{size=+2}Garrafa de Vinho" xalign 0.5
                             text ""
-                            text "A bottle containing magical wine that speeds up Asterion's recovery after injuries."
-                            text "Neither the Master nor the prisoner are capable of summoning this special wine through regular means, the exact way to do so is currently unknown."
-                            text "What would anyone but Asterion drinking the wine do is also unknown."
+                            text "Uma garrafa contendo vinho mágico que acelera a recuperação de Astério após ferimentos."
+                            text "Nem o Mestre nem o prisioneiro são capazes de invocar este vinho especial por meios convencionais, a maneira exata de fazê-lo é atualmente desconhecida."
+                            text "O que alguém além de Astério bebendo o vinho faria também é desconhecido."
                             text ""
                             if not main_menu:
                                 if BundleSacrifice == 'Hestia':
-                                    text "Argos reluctantly gave up the wine bottle in exchange for making a sacrifice to Hestia, goddess of hearth and home, at the fireplace inside the hotel."
+                                    text "Argos relutantemente entregou a garrafa de vinho em troca de um sacrifício para Héstia, a deusa da lareira e do lar, feito na lareira dentro do hotel."
                                 elif BundleSacrifice == 'Hades':
-                                    text "Argos reluctantly gave up the wine bottle in exchange for making a sacrifice to Hades, lord of the dead, at his statue in the hotel gardens."
+                                    text "Argos relutantemente entregou a garrafa de vinho em troca de um sacrifício para Hades, senhor dos mortos, feito em sua estátua nos jardins do hotel."
                                 elif BundleSacrifice == 'Hermes':
-                                    text "Argos reluctantly gave up the wine bottle in exchange for making a sacrifice to Hermes, messenger of the gods, at the basin in the hotel's bedrock."
+                                    text "Argos relutantemente entregou a garrafa de vinho em troca de um sacrifício para Hermes, mensageiro dos deuses, feito na bacia do alicerce do hotel."
                                 elif BundleSacrifice == 'Zeus':
-                                    text "Argos handed the wine bottle over in exchange for arranging an expedition to make a sacrifice to Zeus, king of the gods, at a statue in his honor atop a plateau in the valley."
+                                    text "Argos entregou a garrafa de vinho em troca de uma expedição para fazer um sacrifício a Zeus, rei dos deuses, na estátua em sua homenagem no topo de um planalto no vale."
                                 elif BundleSacrifice == 'Athena':
-                                    text "Argos handed the wine bottle over in exchange for arranging an expedition to make a sacrifice to Athena, goddess of wisdom, at a statue in her honor atop a plateau in the valley."
+                                    text "Argos entregou a garrafa de vinho em troca de uma expedição para fazer um sacrifício a Atena, deusa da sabedoria, na estátua em sua homenagem no todo de um planalto no vale."
                                 else:
-                                    text "The bottle was taken by force from Argos."
+                                    text "A garrafa foi tirada de Argos à força."
                 if FileType == 'Techs':
                     if Tech == "WiFi":
                         vbox spacing 10:
-                            text "{i}{size=+2}Internet Access" xalign 0.5
+                            text "{i}{size=+2}Acesso à Internet" xalign 0.5
                             text ""
-                            text "Through a combination of contracts and schematics, you have managed to establish an internet connection inside the hotel."
-                            text "This is all made possible by repurposing a shrine of Hermes in the Bedrock of the labyrinth that establishes a connection to the outside world."
-                            text "You are currently using a rather slow Uruguayan ISP and will have to pay them a fee, but that should not be an issue."
+                            text "Através de uma combinação de contratos e esquemas, você conseguiu estabelecer uma conexão à internet dentro do hotel."
+                            text "Tudo isso é possível pelo reaproveitamento de um santuário de Hermes no Alicerce do labirinto que estabelece uma conexão com o mundo exterior."
+                            text "Você está atualmente usando um PSI uruguaio bastante lento e terá que pagá-los uma taxa, mas isto não deve ser um problema."
             vbar value YScrollValue("ct")
-
+            
     if FileType != 'none':
         side "c r":
             area (40, 220+PlatAlign2 , 260, 420)
