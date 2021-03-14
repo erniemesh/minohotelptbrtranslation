@@ -498,7 +498,7 @@ screen mobileFilesMenu():
                         vbox spacing 10:
                             text "{i}{size=+2}Décima Primeira Tábua: Permuta" xalign 0.5
                             text ""
-                            text "Uma tábua de argila revelando uma das muitas tragédias que levaram à morte do menino."
+                            text "Uma tábua de argila revelando uma das muitas tragédias que levaram à morte de um menino."
                             text "Esta tábua de argila é adornada com padrões decorativos de flores que racharam e se deformaram durante o processo de cozimento."
                             text "Na tábua está contido:"
                             text ""
