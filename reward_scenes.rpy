@@ -12,30 +12,30 @@ label teamRewards:
         $show_team(rd_team_names())
         $pose_team(rd_team_names(), 'neutral')
         with Dissolve(1.0)
-        "Let's check in on the R&D team."
+        "Vamos verificar a equipe de P&D."
         if len(rd_team_names())==0:
-            "Oh? It looks like no one is here.
-            Your R&D team didn't make any progress."
+            "Ah? Parece que ninguém está aqui.
+            Sua equipe de P&D não fez nenhum progresso."
         else:
             $reward=determine_rd_reward(rewards, inventory, guests, relationships)
             $accumulate_rd_stats()
             if reward == 'none':
-                "Your R&D team made some progress, but no project was completed."
+                "Sua equipe de P&D fez algum progresso, mas nenhum projeto foi concluído."
             else:
                 if build < 4 or is_essential(reward):
                     $pose_team(rd_team_names(), 'victory')
-                    "Oh? It looks like you completed a project!"
+                    "Ah? Parece que você concluiu um projeto!"
                     $ renpy.jump('RDReward_' + reward)
                 else:
                     $pose_team(rd_team_names(), 'victory')
-                    "Your current team can complete a project!
-                    Do you want to complete your research, or continue working towards something else?"
+                    "Sua equipe atual pode concluir um projeto!
+                    Você quer concluir sua pesquisa ou continuar trabalhando na direção de outra coisa?"
                     $myChoices = rewards.get_reward_choices(inventory.accumulated_stats['RD'] + calculate_rd_team_stats(), inventory.raw_materials)
-                    $narrator("Spend your research?", interact=False)
+                    $narrator("Gastar sua pesquisa?", interact=False)
                     $result = renpy.display_menu(myChoices)
                     if result == 'none':
                         $pose_team(rd_team_names(), 'neutral')
-                        "The team will keep its progress and work on other projects."
+                        "A equipe manterá seu progresso e trabalhar em outros projetos."
                     else:
                         $ renpy.jump('RDReward_' + result)
 
@@ -47,9 +47,9 @@ label teamRewards:
         $show_team(exploration_team_names())
         $pose_team(exploration_team_names(), 'neutral')
         with Dissolve(1.0)
-        "Let's check in on the exploration team."
+        "Vamos verificar a equipe de exploração."
         if len(exploration_team_names())==0:
-            "Well... no one was sent into the labyrinth."
+            "Bem... ninguém foi enviado para o labirinto."
         else:
             if team_in_danger():
                 jump danger
@@ -65,15 +65,15 @@ label teamRewards:
                 if reward == 'none':
                     $pose_team(exploration_team_names(), 'neutral')
                     if calculate_exploration_team_stats().get_value("Surveying") >=1:
-                        "Other than that, your exploration team didn't make any big discoveries."
+                        "Fora isto, sua equipe de exploração não fez nenhuma grande descoberta."
                     else:
-                        "Your exploration team didn't find anything."
+                        "Sua equipe de exploração não encontrou nada."
                 else:
                     $pose_team(exploration_team_names(), 'victory')
                     if calculate_exploration_team_stats().get_value("Surveying") >=1:
-                        "Oh? It looks like you found something else!"
+                        "Ah? Parece que você encontrou alguma outra coisa!"
                     else:
-                        "Looks like your team found something!"
+                        "Parece que sua equipe encontrou alguma coisa!"
                     $ renpy.jump('EXReward_' + reward)
         #we return here after the scene with the reward we just claimed
     label EXrewardcheck:
@@ -85,17 +85,17 @@ label teamRewards:
 label danger:
     #Your team fucked up and is in danger.
     $pose_team(exploration_team_names(), 'defeat')
-    "The exploration team reports their findings.\n
-    They were attacked by a creature in the depths of the Labyrinth."
+    "A equipe de exploração relata suas descobertas.\n
+    Eles foram atacados por uma criatura nas profundezas do Labirinto."
     $RNJesus = renpy.random.randint(1, 100)
     if player_background == "speedrunner" and RNJesus <= 40:
         $loot = calculate_exploration_team_stats().get_value("Surveying")
         $pose_team(exploration_team_names(), 'victory')
-        "However... somehow, your team pulled through unscathed.
-        Not only that, they managed to loot [loot] raw materials from the creature!"
-        "Some people would attribute this to sheer luck, or divine intervention.
-        In your mind, your years spent perfecting resource management and your
-        epic gamer skills and instincts were the true key to success."
+        "No entanto... de alguma forma, sua equipe conseguiu sair ilesa.
+        Não apenas isto, eles conseguiram saquear [loot] matérias-primas da criatura!"
+        "Algumas pessoas atribuiriam isto a pura sorte ou intervenção divina.
+        Na sua cabeça, seus anos gastos aperfeiçoando gerenciamento de recursos e
+        suas habilidades épicas e instintos de gamer foram a verdadeira chave para o sucesso."
         $inventory.raw_materials +=loot
     else:
         if danger_attack():
@@ -106,7 +106,7 @@ label danger:
 
 #survey extra rewards
 label survey_Cool:
-    "This is an example of an extra scene that happens when you get really lucky during surveys."
+    "Isto é um exemplo de uma cena extra que acontece quando você acaba sendo muito sortudo durante inspeções."
     jump returnEX
 
 
@@ -123,9 +123,9 @@ label RDReward_WiFi:
         ease 0.3 yalign 1.0
         ease 0.3 yalign 1.1
 
-    "Greta" "[player_name]!{w=0.2} [player_name]! It's wonderful, everyone's having a blast!"
+    "Greta" "[player_name]!{w=0.2} [player_name]! É maravilhoso, todo mundo está se divertindo!"
 
-    you "Oh, hey Greta. What's going on, is the Internet working?"
+    you "Ah, oi Greta. O que está acontecendo, a Internet está funcionando?"
 
     pause 1.0
 
@@ -138,57 +138,57 @@ label RDReward_WiFi:
     show Greta:
         ease 0.5 xalign 0.5
 
-    "Greta" "Oh, yes!{w=0.2} The Internet, silly me, how could I forget.{w=0.2}
-    It is working, we did it, but that's not even the best thing."
+    "Greta" "Ah, sim!{w=0.2} A Internet, que boba, como eu podia esquecer.{w=0.2}
+    Está funcionando, conseguimos, mas isso nem é o melhor."
 
-    "Greta" "This whole experience here has given me so many amazing ideas,
-    such incredible visions for research!{w=0.2} I wrote a document outlining a few
-    of them and showed it to everyone!"
+    "Greta" "Toda essa experiência aqui me deu tantas ideias incríveis,
+    tantas visões maravilhosas para pesquisa!{w=0.2} Eu escrevi um documento destacando algumas
+    delas e mostrei a todo mundo!"
 
     show Greta:
         ease 0.3 yalign 1.0
         ease 0.3 yalign 1.1
-    "Greta" "They are all so blown away by it,{w=0.2} they can't even take more than
-    one idea or two before needing a break!"
+    "Greta" "Eles estão todos tão maravilhados com isso,{w=0.2} não conseguem nem captar mais de uma
+    ou duas ideias antes de precisar de uma pausa!"
 
-    "Greta" "Oh, it's beautiful, [player_name]!{w=0.2} Everyone back at the
-    Engineering department will be so jealous!"
+    "Greta" "Ah, é lindo, [player_name]!{w=0.2} Todo mundo lá no
+    departamento de engenharia vai ficar com tanta inveja!"
 
-    you "That's...{w=0.3} that's great, Greta.{w=0.2} I'm happy to hear that.{w}
+    you "Isso...{w=0.3} isso é ótimo, Greta.{w=0.2} Fico feliz em ouvir isso.{w}
     I'm sure everyone will love your...{w=0.3} ideas."
 
-    you "So, I take it everything is set up and well?"
+    you "Então, presumo que tudo esteja no lugar e funcionando?"
 
     show Greta:
         ease 0.3 yalign 1.0
         ease 0.3 yalign 1.1
-    "Greta" "Yes, absolutely!{w=0.5}... More or less."
+    "Greta" "Sim, absolutamente!{w=0.5}... Mais ou menos."
 
-    "Greta" "We... we got the wi-fi to work,{w=0.2} but there was a whole mess about
-    getting an Internet service provider and..."
+    "Greta" "Nós... nós conseguimos fazer o wi-fi funcionar,{w=0.2} mas teve uma grande confusão sobre
+    como conseguir um provedor de serviços de internet e..."
 
     show Greta:
         xzoom -1
         ease 1.0 xalign 0.4
 
-    "Greta" "We might be...{w=0.5}ha ha...{w=0.5} we might be using the Internet service
-    provider the Uruguayans work for,{w=0.2} ok?"
+    "Greta" "Podemos estar...{w=0.5}ha ha...{w=0.5} podemos estar usando o provedor de internet
+    para o qual os uruguaios trabalham, ok?"
 
     show Greta:
         xzoom 1
         ease 1.0 xalign 0.5
-    "Greta" "So, things are very makeshift on that end, you see.{w=0.2}
-    The broadband is very limited.{w} But it works!{w=0.2} Everything is in order."
+    "Greta" "Então, as coisas são bem improvisadas nesse sentido, sabe.{w=0.2}
+    A banda larga é muito limitada.{w} Mas funciona!{w=0.2} Está tudo em ordem."
 
-    "Greta" "...But if something goes wrong, I'm afraid I have no idea how to fix it,{w=0.2} haha."
+    "Greta" "...Mas se algo der errado, receio não ter a menor ideia de como consertar, haha."
 
-    "Greta" "I'm not a networks engineer.{w=0.2} Give me a break, ok?"
+    "Greta" "Eu não sou uma engenheira de redes. Dá um tempo, ok?"
 
-    "Greta" "You might want to send their central an e-mail every once in a while,{w=0.2}
-    and you'll have to pay the bills too.{w} But I'm sure that will be easy for you,{w=0.2}
-    with a magic hotel and all."
+    "Greta" "Você pode querer enviar um e-mail à central de vez em quando,{w=0.2}
+    e também vai ter que pagar as contas.{w} Mas tenho certeza que vai ser fácil para você,{w=0.2}
+    com um hotel mágico e tudo."
 
-    "Greta" "Give me one minute,{w=0.2} we’re doing a stress test here,{w=0.2} be right back with you."
+    "Greta" "Me dá um minuto,{w=0.2} estamos fazendo um teste de estresse aqui,{w=0.2} já volto com você."
 
     show Greta:
         xzoom -1
@@ -207,20 +207,20 @@ label RDReward_WiFi:
     if 'Luke' in rd_team_names():
         $Luke.change("emotion", "laughing")
         $Luke.change("arm", "pointing")
-        luke "Hell yeah!{w=0.2} Check this shit out, [player_name]!"
+        luke "É isso aí!{w=0.2} Olha essa merda, [player_name]!"
 
         $Luke.change("emotion", "cocky")
         show Luke:
             ease 1.0
 
-        "Luke borderline shoves his phone to your face. It has seen better days: its sides are
-        dented and the screen is cracked and scratched all over, making it hard for you to read."
+        "Luke quase enfia o telefone na sua cara. Já viu dias melhores: as laterais estão
+        amassadas e a tela está rachada e toda arranhada, dificultando sua leitura."
 
-        "In fact, right now Luke's talons are adding new scratches just by gripping it."
+        "Na verdade, agora mesmo as garras de Luke estão adicionando novos arranhões apenas por segurá-lo."
 
-        "However, you can make out a {i}lot{/i} of notifications on the top of the screen,
-        and an all-caps conversation Luke is having with a contact nicknamed \"Ma\", followed
-        by a healthy amount of heart emojis."
+        "No entanto, você consegue distinguir {i}um monte{/i} de nofiticações na parte superior da tela,
+        e uma conversa toda em letras maiúsculas que Luke está tendo com um contato apelidado de \"Mainha\", seguido
+        por uma dose saudável de emojis de coração."
 
         $Luke.change("arm", "hip")
         show Luke:
@@ -231,27 +231,27 @@ label RDReward_WiFi:
         $Kota.change("leftarm", "raised")
         $Kota.change("rightarm", "relaxed")
 
-        kota "Isn’t this exciting news, Mister [player_name]?"
+        kota "Não é uma notícia empolgante, senhor [player_name]?"
 
         $Kota.change("emotion", "neutral")
         $Kota.change("leftarm", "relaxed")
         if 'Kota' == first_guest:
-            kota "I do not use my phone a lot, but being able to look up recipes to cater to
-            guests the world over is definitely a boon to any restaurant."
+            kota "Eu não uso muito meu celular, mas ser capaz de procurar receitas para atender aos clientes
+            do mundo todo é definitivamente uma dádiva para qualquer restaurante."
         else:
-            kota "I do not use my phone a lot, but I am certain that this will make the
-            guests’ stay more pleasant."
+            kota "Eu não uso muito meu celular, mas tenho certeza que isto fará a estadia dos
+            hóspedes ser mais agradável."
 
     if 'Asterion' in rd_team_names():
         $ global_affection += 1
         $Asterion.change("emotion", "laughing")
 
-        asterion "We did it, Master."
+        asterion "Conseguimos, Mestre."
 
         $Asterion.change("emotion", "contemplative")
-        asterion "Well... I didn’t do much other than explain how to write contracts
-        and make sure everything was in order, the others did the heavy lifting.{w=0.2}
-        But I’m happy to have been able to help."
+        asterion "Bem... eu não fiz muito além de explicar como escrever contratos e me
+        certificar de que tudo estava em ordem, os outros fizeram o trabalho pesado.{w=0.2}
+        Mas estou feliz por ter sido capaz de ajudar."
 
     #Since we have a contingency scene to give the player the WiFi reward anyway, it would be
     #unfair if they wasted time getting wifi the way they were intended to, so let's throw them a bone.
@@ -265,125 +265,125 @@ label RDReward_WiFi:
 
     if myList == 'Asterion':
         $Asterion.change("emotion", "smiling")
-        asterion "Greta has been most helpful explaining these concepts to me throughout
-        these sessions.{w=0.2} I feel like I caught up with some of the advancements I missed
-        these last decades."
+        asterion "Greta foi muito útil explicando-me estes conceitos ao longo
+        das sessões.{w=0.2} Sinto que me atualizei com alguns dos avanços que perdi
+        nessas últimas décadas."
         $Asterion.change("emotion", "contemplative")
-        asterion "I... still feel like I will need your help with learning the ropes, Master,
-        but I feel more confident in my ability to do so."
+        asterion "Eu... ainda sinto que precisarei de sua ajuda para aprender mais, Mestre,
+        mas já me sinto mais confiante em minha habilidade."
 
     elif myList == 'Kota':
         $Kota.change("emotion", "happy")
-        kota "Ah, and of course, Miss Greta has been most attentive."
+        kota "Ah, e é claro, dona Greta tem sido muito atenciosa."
 
         $Kota.change("leftarm", "raised")
         $Kota.change("rightarm", "raised")
         $Kota.change("emotion", "neutral")
-        kota "I insisted it was not necessary, but since I was the least knowledgeable
-        person in the room, she put me up to speed in a lot of these matters."
+        kota "Eu insisti que não era necessário, mas como eu era a pessoa menos informada
+        no cômodo, ela me pôs a par de muitos desses assuntos."
 
         $Kota.change("rightarm", "relaxed")
-        kota "I hope I will be more helpful in the future."
+        kota "Tenho esperança de que serei mais útil no futuro."
 
     elif myList == 'Luke':
         $Luke.change("emotion", "laughing")
-        luke "Also,{w=0.2} dang it,{w=0.2} I’m taking back everything I’ve said about
-        the Germans. Greta’s been a doll this whole afternoon explaining all this mumbo
-        jumbo to me,{w=0.2} it {i}almost{/i} makes sense now."
+        luke "Também,{w=0.2} rapaz,{w=0.2} retiro tudo o que eu disse sobre os
+        alemães. Greta foi uma mão na roda a tarde inteira explicando toda essa baboseira
+        pra mim,{w=0.2} {i}quase{/i} faz sentido agora."
 
         $Luke.change("emotion", "wink")
-        luke "If you need a hand tinkering with this stuff down the line,
-        I think I might be able to help out a bit here and there."
+        luke "Se você precisar de uma mão pra mexer nessas coisas no futuro,
+        acho que posso ajudar um pouco aqui e ali."
 
     play sound "sfx/asterionchord.mp3"
     $guests.increase_guest_stat(myList, "Tech", 1)
-    "[myList]'s {color=[UIColorTech]}Tech{/color} stat went up by 1!"
+    "O atributo de {color=[UIColorTech]}Tecnologia{/color} de [myList] aumentou em 1!"
 
-    you "This is incredible news.{w=0.2} So, should I try logging in?"
+    you "Isso é uma ótima notícia.{w=0.2} Então, devo tentar fazer login?"
 
     #one of the team at random shows you how to log in
     $throwaway2 = rd_team_names()[renpy.random.randint(1, len(rd_team_names()))-1]
 
     if throwaway2 == 'Asterion':
         $Asterion.change("emotion", "smiling")
-        asterion "Yes,{w=0.2} uh,{w=0.2} let me see if I recall the instructions..."
+        asterion "Sim,{w=0.2} hã,{w=0.2} deixe-me ver se consigo lembrar das instruções..."
 
-        asterion "The \"network\" is {i}’Minotaur Hotel’{/i}."
+        asterion "A \"rede\" é {i}’Hotel Minotauro’{/i}."
         $Asterion.change("emotion", "tired")
-        asterion "And the password is..."
+        asterion "E a senha é..."
 
-        "Asterion thinks for a couple of seconds with a strained expression,
-        but then just points towards a strip of paper on the table."
+        "Astério pensa por alguns segundos com uma expressão tensa,
+        mas então apenas aponta na direção de uma tira de papel sobre a mesa."
 
-        "You pick it up and it says:"
+        "Você a pega e nela está contido:"
 
-        contract "Password: Netzwerkdurchsetzungsgesetz"
+        contract "Senha: Netzwerkdurchsetzungsgesetz"
 
-        you "Ok,{w=0.2} we’re going to have to change that."
+        you "Ok,{w=0.2} vamos ter que mudar isso."
 
-        asterion "That would be for the best.{w=0.2} She carefully detailed how to do it in
-        one of these documents."
+        asterion "Seria bom.{w=0.2} Ela detalhou cuidadosamente como fazer isto
+        em um destes documentos."
 
     elif throwaway2 == 'Luke':
         $Luke.change("emotion", "annoyed")
-        luke "Well, you’re welcome to try.{w=0.2} The network is {i}\"Minotaur Hotel\"{/i},{w=0.2}
-        but the password is some stupid German shit word that’s impossible to remember."
+        luke "Bem, você pode tentar.{w=0.2} A rede é {i}\"Hotel Minotauro\"{/i},{w=0.2}
+        mas a senha é uma desgraça de palavra alemã doida que é impossível de se lembrar."
 
         $Luke.change("arm", "pointing")
-        "Luke shows you the password in a memo on his phone.{w=0.2} You manage to read it,
-        despite the claw marks and cracks in the screen making it almost impossible to do so."
+        "Luke mostra a senha para você em uma nota em seu celular.{w=0.2} Você consegue ler,
+        apesar das marcas de garras e rachaduras na tela que tornam quase impossível fazer isso."
 
-        contract "Password: Netzwerkdurchsetzungsgesetz"
+        contract "Senha: Netzwerkdurchsetzungsgesetz"
 
-        you "Ok,{w=0.2} we’re going to have to change that."
+        you "Ok,{w=0.2} vamos ter que mudar isso."
 
         $Luke.change("arm", "hip")
         $Luke.change("emotion", "neutral")
-        luke "I know, right?{w=0.2} She left some instructions on how to do it, thankfully."
+        luke "Né?{w=0.2} Ela deixou algumas instruções de como fazer isso, felizmente."
 
     elif throwaway2 == 'Kota':
         $Kota.change("leftarm", "relaxed")
         $Kota.change("rightarm", "raised")
         $Kota.change("emotion", "happy")
-        kota "Why yes. You shouldn’t have a problem finding the network, since it’s the only one.
-        It's called {i}\"Minotaur Hotel\"{/i}."
+        kota "Pois bem. Você não terá problema algum para encontrar a rede, uma vez que é a única.
+        Chama-se {i}\"Hotel Minotauro\"{/i}."
 
         $Kota.change("rightarm", "relaxed")
-        kota "As for the password, well, it’s...{w=0.3} I hope I’m saying this right...
+        kota "Quanto à senha, bem, é...{w=0.3} Espero estar dizendo isso direito...
         {w=0.3} Netzwerkdurchsetzungsgesetz."
 
-        you "Excuse me,{w=0.2} what?"
+        you "Desculpa,{w=0.2} é o que?"
 
         $Kota.change("emotion", "sad")
-        "Kota sighs, and hands you a slip of paper. It’s written in bright purple ink,
-        in what you assume to be Greta’s handwriting."
+        "Kota suspira e lhe entrega um pedaço de papel. Está escrito em tinta roxa brilhante,
+        com o que você supõe ser a caligrafia de Greta."
 
-        contract "Password: Netzwerkdurchsetzungsgesetz"
+        contract "Senha: Netzwerkdurchsetzungsgesetz"
 
-        you "Ok,{w=0.2} we’re going to have to change that."
+        you "Ok,{w=0.2} vamos ter que mudar isso."
 
         $Kota.change("emotion", "neutral")
-        kota "Yes, it would seem prudent to do so.{w=0.2} She was nice enough to leave
-        instructions on how to do it."
+        kota "Sim, parece prudente fazer isto.{w=0.2} Ela foi gentil o suficiente para
+        deixar instruções sobre como fazer."
 
-    you "So, Minotaur Hotel.{w} Ok, that’s memorable and to the point, I suppose."
+    you "Então, Hotel Minotauro.{w} Ok, é memorável e direto ao ponto, suponho."
     play sound "sfx/vibratephone.mp3"
-    "You login and, for the first time in a long while, your wi-fi icon lights up."
+    "Você faz o login e, pela primeira vez em muito tempo, seu ícone de wi-fi acende."
     stop sound
     $obtain_reward('WiFi', 'RD')
     $add_file('Tech', "WiFi")
 
     play sound "sfx/asterionchord.mp3"
-    "You managed to establish {color=[UIColorOrange]}internet access{/color} in the hotel.
-    You can see your completed tech projects under the tech tab in
-    the {color=[UIColorOrange]}Files{/color} screen in the pause menu."
+    "Você conseguiu estabelecer {color=[UIColorOrange]}acesso à internet{/color} no hotel.
+    Você pode ver seus projetos de tecnologia concluídos na guia de tecnologia
+    na tela {color=[UIColorOrange]}Arquivos{/color} no menu de pausa."
 
     if len(exploration_team_names()) > 0:
-        "The excitement in the room is palpable, but you have other responsibilities to attend to.
-        You congratulate the team on a job well done, and go check on the exploration team."
+        "A animação no cômodo é palpável, mas você tem outras responsabilidades a cumprir.
+        Você parabeniza a equipe pelo trabalho bem feito e vai verificar a equipe de exploração."
     else:
-        "The excitement in the room is palpable. You congratulate the team on a job well done,
-        and stay with them for a while to celebrate."
+        "A animação no cômodo é palpável. Você parabeniza a equipe pelo trabalho bem feito
+        e fica com eles por um tempo para comemorar."
 
     jump RDrewardcheck
 
@@ -407,14 +407,14 @@ label RDReward_Satellite:
 
 label EXReward_Tablet1:
     $add_file('Memento', "Tablet1")
-    "You found a clay tablet narrating a dutiful son's journey to Crete.\n
-    You can read it by opening the Files in the menu."
+    "Você encontrou uma tábua de argila narrando a jornada de um filho devoto a Creta.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet1', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet2:
     $add_file('Memento', "Tablet2")
-    "You found a clay tablet narrating a cursed family's arrival to Crete.\n
+    "Você encontrou uma tábua de argila.\n
     You can read it by opening the Files in the menu."
     $obtain_reward('Tablet2', 'Exploration')
     jump EXrewardcheck
