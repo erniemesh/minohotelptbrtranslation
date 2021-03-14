@@ -4450,24 +4450,24 @@ label build04:
     asterion "Se você gostaria de compartilhar, sim."
 
     $Kota.change("emotion", "angry")
-    luke "How wise you look, little star, away\nUp yonder in the sky;"
-    luke "How many years have you twinkled there\nAbove the world so high?"
+    luke "Quão sábia você parece, estrelinha, lá longe\nLá encima no céu;"
+    luke "Por quantos anos você brilhou aí\nAcima do mundo, tão alto?"
     $Luke.change("emotion", "happy")
-    luke "Little star, away up yonder,\nTell me, were you shining then?"
-    luke "Did you hear the angels singing,\n\“Peace! Goodwill to men\”?"
+    luke "Estrelinha, lá encima no céu,\nDiga-me, você estava brilhando antes?"
+    luke "Você ouviu os anjos cantando,\n\“Paz! Boa vontade aos homens\”?"
 
     $Luke.change("arm", "salute")
-    luke "I often wonder if you were there\nWhen Christ lay in the stall,"
-    luke "And if you saw, from your dizzy height,\nThe infant Lord of all."
+    luke "Muitas vezes me pergunto se você estava lá\nQuando Cristo estava no celeiro,"
+    luke "E se você viu, de sua altura estonteante,\nO infante Senhor de todos."
 
     $Kota.change("emotion", "puzzled")
     $Luke.change("arm", "pointing")
-    luke "If you had listened on that night,\nCould you have heard the song"
-    luke "That floated down on the midnight air\nFrom that angelic throng?"
-    luke "Oh, yes, a wise little star are you,\nYet not a word to say;"
+    luke "Se você ouviu naquela noite,\nPoderia ter escutado a música"
+    luke "Que flutuou no ar da meia noite\nDaquela multidão angelical?"
+    luke "Ah, sim, você é uma estrelinha sábia,\nMesmo sem nenhuma palavra para dizer;"
     $Luke.change("emotion", "laughing")
     $Luke.change("arm", "salute")
-    luke "You watch all night o’er the drowsy earth,\nAnd sleep all through the day."
+    luke "Você observa a terra sonolenta a noite toda,\nE dorme durante o dia inteiro."
 
     pause 2.0
 
@@ -7166,163 +7166,202 @@ label build4_safe_end:
         xzoom 1 xalign 0.5 yalign 1.0 zoom 1
     with Dissolve(3)
 
-    gruggy "...And that's it!"
+    gruggy "...E é isso!"
 
-    gruggy "This was Build 0.4 of Minotaur Hotel. I hope you enjoyed it."
+    gruggy "Essa foi a Atualização 0.4 de Hotel Minotauro. Espero que tenha gostado."
 
-    gruggy "First of all, let us apologize for the long hiatus between builds.
-    After finishing 0.3, we took a break before starting to work on 0.4, and settled
-    on everything we wanted to do for the build."
+    gruggy "Em primeiro lugar, nos desculpamos pelo longo hiato entre as atualizações.
+    Depois de terminar a 0.3, demos uma pausa antes de começar a trabalhar na 0.4 e definir
+    tudo o que queríamos fazer para a atualização."
 
-    gruggy "Needless to say, if you've been following the development of this VN,
-    we bit a lot more than we could chew. We made considerable progress — we were
-    about 75k words into the update, but we still had a long way to go..."
+    gruggy "Sem falar que, se você vem acompanhando o desenvolvimento desta VN,
+    mordemos um pouco mais do que conseguíamos mastigar. Fizemos um progresso considerável — tínhamos
+    cerca de 75k palavras na atualização, mas ainda tínhamos um longo caminho a percorrer..."
 
-    gruggy "...and we had kept people waiting for almost half a year with no
-    updates, in a time where people could really use some uplifting content."
+    gruggy "...e mantivemos as pessoas esperando por quase meio ano sem
+    atualizações, em uma época onde elas realmente poderiam aproveitar um pouco de conteúdo que melhore o humor."
 
-    gruggy "So, we decided to put this build out as a compromise. We hope that
-    Chapter 13 and the introduction to the Hinterlands section of the game
-    made for a satisfying amount of content."
+    gruggy "Portanto, decidimos colocar esta atualização como um compromisso. Esperamos que o
+    Capítulo 13 e a introdução à seção do Sertão no jogo
+    tenham entregado uma quantidade satisfatória de conteúdo."
 
-    gruggy "This time we won't be taking our usual time off after the release.
-    Our writing is going at a very good, healthy pace."
+    gruggy "Desta vez, não tiraremos nosso tempo de folga habitual após o lançamento.
+    Nossa escrita está seguindo em um ritmo muito bom e saudável."
 
-    gruggy "If the content this time around felt a bit on the short side, we are sorry.
-    If it makes things easier, it had to be shorter here so the next piece of content
-    will be the best it can be."
+    gruggy "Se o conteúdo desta vez pareceu um pouco curto, sentimos muito.
+    Se serve de consolo, teve que ser mais curto aqui para que o próximo conteúdo seja
+    o melhor possível."
 
-    gruggy "This chapter still has a bit of replayability — Asterion visits different
-    websites based on your recommendation, and the cobalts take a liking to Kota or Luke
-    depending on who is running the lounge."
+    gruggy "Este capítulo ainda tem um pouco de rejogabilidade — Astério visita diferentes
+    sites com base em sua recomendação e os cobaltos gostam de Kota ou Luke
+    dependendo de quem está administrando o salão."
 
-    gruggy "And of course, the choices in how you treat Asterion. So as always, we
-    recommend trying different save files."
+    gruggy "E, é claro, as escolhas sobre como você trata o Astério. Então, como sempre, recomendamos
+    tentar diferentes salvamentos."
 
     pause 2.0
 
-    gruggy "As usual, here's your current ranking!"
+    gruggy "Como de costume, aqui está sua classificação atual!"
 
     call screen RankBar(global_affection)
 
-    gruggy "It should have gone up, considering you've improved your relationship
-    with Asterion quite a lot in this build."
+    gruggy "Deve ter subido, considerando que você melhorou bastante sua relação
+    com Astério nesta atualização."
 
-    gruggy "As usual, we would like to ask you: What are you thinking of Minotaur Hotel so far?"
+    gruggy "Como de costume, gostaríamos de perguntar a você: O que você está achando de Hotel Minotauro até agora?"
 
     menu:
-        "What are you thinking of Minotaur Hotel so far?"
-        "The game is excellent.":
+        "O que você está achando de Hotel Minotauro até agora?"
+        "O jogo é excelente.":
 
-            gruggy "Nice, we are happy to hear that.{w=0.2} That's what we want,
-            to make a very remarkable experience."
+            gruggy "Ótimo, ficamos felizes em ouvir isso.{w=0.2} É o que queremos,
+            criar uma experiência bastante notável."
 
-            gruggy "If you want to help us continue on that path and are willing
-            to give us two or three minutes of time, there are two things you can do to help us."
+            gruggy "Se você quer nos ajudar a continuar nesse caminho e está disposto
+            a nos dar dois ou três minutos do seu tempo, há duas coisas que você pode fazer para nos ajudar."
 
-            gruggy "First, it helps immensely when people rate our game on Itch.io.{w=0.2}
-            Every 5-star rating we get makes Minotaur Hotel show up more often to more people."
+            gruggy "Primeiro, ajuda imensamente quando as pessoas avaliam nosso jogo no Itch.io.{w=0.2}
+            Cada avaliação de 5 estrelas que obtemos faz com que Hotel Minotauro apareça com mais frequência para mais pessoas."
 
-            gruggy "It also shows us just how much people are enjoying our game.{w=0.2}
-            I mean, life isn't easy, right?{w=0.2} We wanted to make a game
-            that made people feel good."
+            gruggy "Também nos mostra o quanto as pessoas estão gostando do nosso jogo.{w=0.2}
+            Quer dizer, a vida não é fácil, não é?{w=0.2} Queríamos fazer um jogo
+            que fizesse as pessoas se sentirem bem."
 
-            gruggy "So seeing that confirmation means a lot to us.{w=0.2}
-            It means we are accomplishing exactly what we set out to do."
+            gruggy "Então, ver essa confirmação significa muito para nós.{w=0.2}
+            Significa que estamos realizando exatamente o que nos propusemos a fazer."
 
-            gruggy "Besides, a lot of the success we found is due to the people
-            who took the time to rate our game.{w=0.2} I cannot overestimate
-            how much it helps when it comes to attracting more players."
+            gruggy "Além disso, muito do sucesso que encontramos se deve às pessoas que separaram
+            um tempo para avaliar nosso jogo.{w=0.2} Não posso superestimar o quanto
+            isso ajuda quando se trata de atrair mais jogadores."
 
-            gruggy "Leaving a rating only takes a few seconds, I should add."
+            gruggy "Deixar uma classificação leva apenas alguns segundos, devo adicionar."
 
             if permaSFW:
-                gruggy "{a=https://minoh.itch.io/minotaur-hotel-sfw/rate?source=game}You can click here
-                to rate Minotaur Hotel SFW on Itch.{/a} Writing a review helps too, but it's not necessary."
+                gruggy "{a=https://minoh.itch.io/minotaur-hotel-sfw/rate?source=game}Você pode clicar aqui
+                para avaliar o Hotel Minotauro: Modo SFW no Itch.{/a} Escrever uma resenha também ajuda, mas não é necessário."
             else:
-                gruggy "{a=https://minoh.itch.io/minotaur-hotel/rate?source=game}You can click here
-                to rate Minotaur Hotel on Itch.{/a} Writing a review helps too, but it's not necessary."
+                gruggy "{a=https://minoh.itch.io/minotaur-hotel/rate?source=game}Você pode clicar aqui para
+                avaliar o Hotel Minotauro no Itch.{/a} Escrever uma resenha também ajuda, mas não é necessário."
 
-                gruggy "{a=https://minoh.itch.io/minotaur-hotel-sfw/rate?source=game}And if you're
-                willing to give us some extra help you can also give Minotaur Hotel: SFW Mode a good rating too.{/a}"
+                gruggy "{a=https://minoh.itch.io/minotaur-hotel-sfw/rate?source=game}E se você estiver disposto
+                a nos dar alguma ajuda extra, pode dar uma boa avalização a Hotel Minotauro: Modo SFW também.{/a}"
 
-            gruggy "If you already left a review...{w=0.2} Thank you so much."
+            gruggy "Se você já escreveu uma resenha...{w=0.2} Muito obrigado."
 
-            gruggy "If you still have some more time, you can also fill our anonymous survey."
+            gruggy "Se ainda tiver mais um pouco de tempo, também pode preencher nossa pesquisa anônima."
 
-            gruggy "Each of the surveys we did gave us invaluable information on how to
-            improve the game, and we want to keep checking with you how the experience is going."
+            gruggy "Cada uma das pesquisas que fizemos nos deram informações valiosas sobre como
+            melhorar o jogo, e queremos continuar verificando com vocês como a experiência está indo."
 
-            gruggy "It shouldn't take you more than two minutes...{w=0.2}
-            It's just a few multiple choice questions."
+            gruggy "Não deve levar mais que dois minutos do seu tempo...{w=0.2}
+            São só algumas perguntas de múltipla escolha."
 
-            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}You can access the survey by clicking here.{/a}"
+            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}Você pode acessar a pesquisa clicando aqui.{/a}"
 
-        "It's pretty good.":
+        "É muito bom.":
 
-            gruggy "I'm glad to hear that! If you have any suggestions on how to improve it
-            we'd like to hear it."
+            gruggy "Fico feliz em ouvir isso! Se você tiver alguma sugestão sobre como melhorá-lo,
+            gostaríamos de ouvir."
 
-            gruggy "We have a survey for it and all."
+            gruggy "Temos uma pesquisa para isso e tudo."
 
-            gruggy "Each of the surveys we did gave us invaluable information on how to improve
-            the game, and we want to keep checking with you how the experience is going."
+            gruggy "Cada uma das pesquisas que fizemos nos deram informações valiosas sobre como
+            melhorar o jogo, e queremos continuar verificando com vocês como a experiência está indo."
 
-            gruggy "The survey shouldn't take you more than two minutes...{w=0.2}
-            It's just a few multiple choice questions."
+            gruggy "Não deve levar mais que dois minutos do seu tempo...{w=0.2}
+            São só algumas perguntas de múltipla escolha."
 
-            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}You can access the survey by clicking here.{/a}"
+            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}Você pode acessar a pesquisa clicando aqui.{/a}"
 
-        "It's ok, kinda average.":
-            gruggy "I see, I see. In this case, would you have a minute or two to tell
-            us how to improve it?"
+        "É ok, meio razoável.":
+            gruggy "Entendo, entendo. Nesse caso, você teria um ou dois minutos para nos dizer como podemos
+            melhorá-lo?"
 
-            gruggy "We always make a survey to gather input, this is no different."
+            gruggy "Sempre fazemos uma pesquisa para colher informações, desta vez não é diferente."
 
-            gruggy "Each of the surveys we did gave us invaluable information on
-            how to improve the game, and we want to keep checking with you how the experience is going."
+            gruggy "Cada uma das pesquisas que fizemos nos deram informações valiosas sobre como
+            melhorar o jogo, e queremos continuar verificando com vocês como a experiência está indo."
 
-            gruggy "The survey shouldn't take you more than two minutes...{w=0.2}
-            It's just a few multiple choice questions."
+            gruggy "Não deve levar mais que dois minutos do seu tempo...{w=0.2}
+            São só algumas perguntas de múltipla escolha."
 
-            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}You can access the survey by clicking here.{/a}"
+            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}Você pode acessar a pesquisa clicando aqui.{/a}"
 
-        "Sorry, it's kinda bad.":
-            gruggy "Oh, I'm sorry to hear that."
+        "Desculpa, é meio ruim.":
+            gruggy "Ah, sinto muito ouvir isso."
 
-            gruggy "If you want to tell us why, we'd love to hear it. We have a survey exactly for that, to figure out how to improve the game."
+            gruggy "Se quiser nos dizer o porquê, adoraríamos ouvir. Temos uma pesquisa exatamente para isso, para descobrir como melhorar o jogo."
 
-            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}If you have two or three minutes you can fill it out here.{/a}"
+            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}Se você tiver dois ou três minutos, pode preenchê-la aqui.{/a}"
 
-        "I really didn't like it at all.":
-            gruggy "Oh, I'm sorry to hear that."
+        "Eu realmente não gostei nem um pouco.":
+            gruggy "Ah, sinto muito ouvir isso."
 
-            gruggy "Well, you made it all the way here, didn't you? If you want to tell us why,
-            we'd love to hear it. We have a survey exactly for that,
-            to figure out how to improve the game."
+            gruggy "Bem, você seguiu todo o caminho até aqui, não é? Se quiser nos dizer o porquê,
+            adoraríamos ouvir. Temos uma pesquisa exatamente para isso,
+            descobrir como melhorar o jogo."
 
-            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}If you have two or three minutes
-            you can fill it out here.{/a}"
+            gruggy "{a=https://forms.gle/CEzQ3LaHJnDeA75U8}Se você tiver dois ou três minutos,
+            pode preenchê-la aqui.{/a}"
 
-    gruggy "We also set up a thread for people to discuss the game. It's the best place
-    to go if you want to go in detail about how we should improve.
-    {a=https://itch.io/t/1069812/build-04-general-discussion}Here it is.{/a}"
+    gruggy "Também criamos um tópico para as pessoas discutirem o jogo. É o melhor lugar para
+    ir se você quiser entrar em detalhes sobre como devemos melhorar.
+    {a=https://itch.io/t/1069812/build-04-general-discussion}Aqui está.{/a}"
 
-    gruggy "{a=https://itch.io/t/681416/nsfw-general-art-fan-content-thread}We have a place
-    for people to post fan art, too.{/a}"
+    gruggy "{a=https://itch.io/t/681416/nsfw-general-art-fan-content-thread}Temos um lugar para
+    as pessoas postarem fan art, também.{/a}"
 
-    gruggy "Now, to close it up..."
+    gruggy "Agora, para concluir..."
 
-    gruggy "Thank you very much for playing. As for when the next build comes out..."
+    gruggy "Muito obrigado por jogar. E, sobre quando a próxima atualização vai sair..."
 
-    gruggy "A lot of the work for 0.5 is already done! We will still need a couple months,
-    but we think it's going to pay off immensely when it's finally out."
+    gruggy "Muito do trabalho para a 0.5 já está feito! Ainda precisaremos de alguns meses,
+    mas achamos que vai valer muito a pena quando finalmente for lançada."
 
-    gruggy "As usual, we suggest you replay the game.
-    We put out a walkthrough in our itch page for 0.3's content a while ago, to give
-    you suggestions on things you might have missed."
+    gruggy "Como de costume, sugerimos que você rejogue o jogo.
+    Lançamos um passo a passo em nossa página do itch para o conteúdo da 0.3 há algum tempo, para dar
+    sugestões sobre coisas que você pode ter perdido."
 
-    gruggy "You will now be kicked back to a safe spot to save the game for the next build.
-    Until then, goodbye!"
+    gruggy "Você agora será levado de volta a um local seguro para salvar o jogo para a próxima atualização.
+    Até lá, tchauzin!"
+
+    gruggy "..."
+
+    gruggy "Oi, vou possuir essa criaturinha pra falar um pouco aqui porque agora eu tenho o poder, entendeu? :v."
+
+    gruggy "Enfim, eu sou o tradutor dessa belezura. Espero que tenham gostado da tradução, demorou
+    pra caramba pra terminar isso e fiz com todo carinho, então, considerem avaliar o jogo e deixar uma resenha. (Com considerações à tradução também, rs)."
+
+    gruggy "Isso provavelmente não vai passar despercebido (oi, gente :P) e os moços da equipe vão ver porque a pesquisa e os outros links
+    tão em inglês e acho que vão mudar pra versões em português, mas enfim. E se passar, passou, shh, não conta pra ninguém."
+
+    gruggy "Na verdade, provavelmente essa parte inteira vai ter uma reformulação pra versão em português, agora que penso nisso,
+    acho que nem precisava traduzir ela..."
+
+    gruggy "Droga."
+
+    gruggy "Mas, seguindo, quero dizer que foi uma grande honra traduzir isso e posso dizer -- agora que sei de tudo desse jogo, mwahahaha --
+    que Minotaur Hotel é bom pra caralho e com certeza uma das melhores visual novels do itch.io inteiro."
+
+    gruggy "Isso aqui é muito melhor que livro convencional ou série de TV. A comunidade furry (principalmente os conterrâneos viado igual eu) é cheia de gente talentosa,
+    diga-se de passagem. Muito obrigado, Carbon e Nanoff, pela oportunidade e André, Grixis e Kopten pelas ressalvas e ajuda com as partes que fiquei empacado."
+
+    gruggy "Sobre o jogo, recomendo especialmente que deem um jeito de achar todos os objetos do vale, mesmo que precisem enviar o coitado do Astério pra lá,
+    ninguém precisa saber :P. A história das tábuas é muito legal e explica bastante coisa que fica no ar."
+
+    gruggy "E aliás, uma curiosidade antes de continuar:"
+
+    gruggy "Até chegar na parte onde se apresenta a Internet ao Astério, eu não sabia que o nome tinha tradução e usei o original (Asterion), que na minha cabeça
+    soava melhor, mas que depois comecei a me acostumar e, já que todos os outros nomes gregos foram traduzidos, acabei me sentindo na obrigação de mudar esse também."
+
+    gruggy "Moral da história: mesmo que hajam traduções horríveis de nomes gregos como 'Gerião' e 'Deucalião', se você fica na companhia deles por tempo suficiente,
+    acaba se acostumando."
+
+    gruggy "Enfim, vou deixar o textão pra minha resenha do jogo que vou refazer, melhor não colocar muita coisa aqui."
+
+    gruggy "Por fim, o merchan, que eu não sou besta. Me sigam aí no twitter (@erniemesh) que vai ter uma surpresa lá quando eu terminar um negócio aqui.
+    Dica: tradução de outra visual novel. E também, pretendo me aventurar no mundo das VNs futuramente, ainda vai demorar bastante, mas segue lá pra não perder quando sair."
+
+    gruggy "Enfim, é isso. Tchauzin."
 
     jump build4_safe_end
