@@ -215,7 +215,7 @@ screen mobileFilesMenu():
                             text "{i}{size=+2}Terceira Tábua: Audiência" xalign 0.5
                             text ""
                             text "Uma tábua de argila narrando uma rara audiência com um antigo rei."
-                            text "Colunas carmesim ainda se encontram nos locais antigos de Creta, uma memória duraroura de uma época derradeira. O labiríntico Palácio de Cnossos, embora consumido e apodrecido, durou mais tempo que os dreis e deuses."
+                            text "Colunas carmesim ainda se encontram nos locais antigos de Creta, uma memória duraroura de uma época derradeira. O labiríntico Palácio de Cnossos, embora consumido e apodrecido, durou mais tempo que os reis e deuses."
                             text "Esta tábua é decorada com padrões repetitivos de colunas, mas um exame minucioso revela traços de um raro e precioso tesouro pulverizado sobre ela: açafrão."
                             text "Na tábua está contido:"
                             text ""
