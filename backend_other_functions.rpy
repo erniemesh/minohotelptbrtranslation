@@ -13,7 +13,7 @@ init python:
         else:
             for i, j in enumerate(my_list):
                 if i+1 == len(my_list):
-                    output = output + 'and ' + str(my_list[i])
+                    output = output + 'e ' + str(my_list[i])
                 elif i+2 == len(my_list):
                     output = output + str(my_list[i]) + ' '
                 else:
@@ -25,17 +25,17 @@ init python:
         affection = float(affection)
         if affection > 0:
             if affection.is_integer():
-                word1 = "Great"
+                word1 = "Excelente"
             else:
-                word1 = "Grand"
+                word1 = "Grande"
         else:
             if affection.is_integer():
-                word1 = "Fearsome"
+                word1 = "Temível"
             else:
-                word1 = "Ruthless"
+                word1 = "Cruel"
 
         if int(abs(affection)/4) not in preset_animal_ranks.keys():
-            word2 = 'Auroch'
+            word2 = 'Auroque'
         else:
             word2 = preset_animal_ranks[int(abs(affection) / 4)]
 
@@ -49,22 +49,22 @@ init python:
         metals_inverted = {v: k for k, v in preset_metal_ranks.items()}
         animals_inverted = {v: k for k, v in preset_animal_ranks.items()}
 
-        if words[0] == "Great":
+        if words[0] == "Excelente":
             num0 = 1
             num1 = 0
-        elif words[0] == "Grand":
+        elif words[0] == "Grande":
             num0 = 1
             num1 = 0.5
-        elif words[0] == "Fearsome":
+        elif words[0] == "Temível":
             num0 = -1
             num1 = 0
-        elif words[0] == "Ruthless":
+        elif words[0] == "Cruel":
             num0 = -1
             num1 = 0.5
 
         num2 = metals_inverted[words[1]]
 
-        if words[2] == 'Auroch':
+        if words[2] == 'Auroque':
             num3 = 8
         else:
             num3 = animals_inverted[words[2]]
@@ -73,12 +73,12 @@ init python:
 
 
     def output_save_name(chapter_title):
-        colors = {"math": "{color=[UIColorMath]}Math{/color}",
-                  "tech": "{color=[UIColorTech]}Tech{/color}",
-                  "leader": "{color=[UIColorLeader]}Leader{/color}",
+        colors = {"math": "{color=[UIColorMath]}Matemática{/color}",
+                  "tech": "{color=[UIColorTech]}Tecnologia{/color}",
+                  "leader": "{color=[UIColorLeader]}Líder{/color}",
                   "speedrunner": "{color=[UIColorSpeedrunner]}Speedrunner{/color}",
-                  "humanities": "{color=[UIColorHumanities]}Humanities{/color}",
-                  "arts": "{color=[UIColorArts]}Arts{/color}"}
+                  "humanities": "{color=[UIColorHumanities]}Humanas{/color}",
+                  "arts": "{color=[UIColorArts]}Artes{/color}"}
         color = colors[player_background] if player_background in colors.keys() else ''
         return chapter_title + ', ' + color
 
