@@ -78,11 +78,11 @@ init python:
             chance = random_between(1, 7 if player_background == 'speedrunner' else 5)
             if chance < 4:
                 someone_injured = True
-                days = 'a day' if chance == 1 else str(chance) + " days"
-                print_on_textbox(guest_name + " is injured. He will take " + days + " to recover.")
+                days = 'um dia' if chance == 1 else str(chance) + " dias"
+                print_on_textbox(guest_name + " está ferido. Ele levará " + days + " para se recuperar.")
                 guests.disable_guest(guest_name, chance)
         if not someone_injured:
-            print_on_textbox("Thankfully, no one was injured. You make a mental note to be more careful next time.")
+            print_on_textbox("Felizmente, ninguém ficou ferido. Você faz uma anotação mental para ser mais cuidadoso da próxima vez.")
         return someone_injured
 
 
@@ -107,13 +107,13 @@ init python:
         if player_background == "speedrunner":
             random_number += 10
         if random_number <= 10:
-            print_on_textbox("Your team didn't find any raw materials.")
+            print_on_textbox("Sua equipe não encontrou nenhuma matéria-prima.")
         elif random_number < 60:
-            print_on_textbox("Your team found " + str(survey_stat) + " raw materials!")
+            print_on_textbox("Sua equipe encontrou " + str(survey_stat) + " matérias-primas!")
             inventory.raw_materials += survey_stat
         else:
             survey_stat *= 2
-            print_on_textbox("Your team got really lucky, and found " + str(survey_stat) + " raw materials, twice what you expected!")
+            print_on_textbox("Sua equipe teve bastante sorte e encontrou " + str(survey_stat) + " matérias-primas, duas vezes o que você esperava!")
             inventory.raw_materials += survey_stat
         # if random_number == 100:
         #    my_label='Cool'
