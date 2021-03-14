@@ -1,5 +1,5 @@
 label ruthlessEnding:
-    "It seems like you got a bad outcome- the game will take a different path
-    if you got this ending at the conclusion of 0.3, which we will be adding soon."
+    "Parece que você teve um resultado ruim- o jogo seguirá um caminho diferente
+    se você conseguiu este final na conclusão da 0.3, que adicionaremos em breve."
 
-    "There's more Minotaur Hotel if you go back and make different choices."
+    "Há mais Hotel Minotauro se você voltar e fazer escolhas diferentes."
