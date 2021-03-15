@@ -407,176 +407,176 @@ label RDReward_Satellite:
 
 label EXReward_Tablet1:
     $add_file('Memento', "Tablet1")
-    "Você encontrou uma tábua de argila narrando a jornada de um filho devoto a Creta.\n
+    "Você obteve uma tábua de argila narrando a jornada de um filho devoto a Creta.\n
     Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet1', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet2:
     $add_file('Memento', "Tablet2")
-    "Você encontrou uma tábua de argila.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila narrando a chegada de uma familia amaldiçoada em Creta.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet2', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet3:
     $add_file('Memento', "Tablet3")
-    "You obtained a clay tablet narrating a rare audience with an ancient king.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila narrando uma rara audiência com um rei antigo.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet3', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet4:
     $add_file('Memento', "Tablet4")
-    "You obtained a clay tablet narrating an intervention from a concerned youth.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila narrando uma intervenção de uma jovem preocupada.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet4', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet5:
     $add_file('Memento', "Tablet5")
-    "You obtained a clay tablet narrating a man's encounter with one of divine nature.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila narrando o encontro de um homem com outro de natureza divina.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet5', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet6:
     $add_file('Memento', "Tablet6")
-    "You obtained a clay tablet revealing a child's hospitality.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila revelando a hospitalidade de uma criança.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet6', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet7:
     $add_file('Memento', "Tablet7")
-    "You obtained a clay tablet narrating a small tragedy of human folly.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila narrando uma pequena tragédia da loucura humana.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet7', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet8:
     $add_file('Memento', "Tablet8")
-    "You obtained a clay tablet depicting a scene of treachery.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila retratando uma cena de traição.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet8', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet9:
     $add_file('Memento', "Tablet9")
-    "You obtained a clay tablet narrating a small tragedy of human folly.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila narrando uma pequena tragédia da loucura humana.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet9', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet10:
     $add_file('Memento', "Tablet10")
-    "You obtained a clay tablet revealing a bastard tempting a pious youth away from his duty.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila revelando um bastardo tentando um jovem devoto a se afastar para longe de seu dever.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet10', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet11:
     $add_file('Memento', "Tablet11")
-    "You obtained a clay tablet revealing one of many tragedies leading to a boy's demise.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila revelando uma das muitas tragédias que levaram à morte de um menino.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet11', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet12:
     $add_file('Memento', "Tablet12")
-    "You obtained a clay tablet revealing a hybrid's foul nature.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila revelando a natureza suja de um híbrido.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet12', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet13:
     $add_file('Memento', "Tablet13")
-    "You obtained a clay tablet revealing the hybrid's despondency.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila revelando o desânimo do híbrido.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet13', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet14:
     $add_file('Memento', "Tablet14")
-    "You obtained a clay tablet revealing one of many tragedies leading to a boy's demise.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila revelando uma das muitas tragédias que levaram à morte de um menino.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet14', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet15:
     $add_file('Memento', "Tablet15")
-    "You obtained a clay tablet revealing a prisoner's last shred of hope.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila revelando o último resquício de esperança de um prisioneiro.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet15', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet16:
     $add_file('Memento', "Tablet16")
-    "You obtained a clay tablet depicting a crime against divine order.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila retratando um crime contra a ordem divina.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet16', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet17:
     $add_file('Memento', "Tablet17")
-    "You obtained a clay tablet revealing a prisoner's liberation.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila revelando a libertação de um prisioneiro.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet17', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Tablet18:
     $add_file('Memento', "Tablet18")
-    "You obtained a clay tablet revealing an ominous fate.\n
-    You can read it by opening the Files in the menu."
+    "Você obteve uma tábua de argila revelando um destino sinistro.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Tablet18', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_TypewriterScrap:
     $add_file('Memento', "TypewriterScrap")
-    "You encountered a very old crumpled piece of paper: a small memento of Asterion's past.\n
-    You can read it by opening the Files in the menu."
+    "Você encontrou um pedaço de papel amassado muito antigo: uma pequena lembrança do passado de Astério.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('TypewriterScrap', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_PoemNotebook:
     $add_file('Memento', "PoemNotebook")
-    "You encountered a tiny, goatskin-bound notebook, containing handwritten poetry.\n
-    You can read it by opening the Files in the menu."
+    "Você encontrou um pequeno caderno encadernado em pele de cabra, contendo poesia escrita à mão.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('PoemNotebook', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_RockCarving:
     $add_file('Memento', "RockCarving")
-    "You found a petroglyph: writing engraved into a slab of rock.\n
-    You can read it by opening the Files in the menu."
+    "Você encontrou um petróglifo: escrita gravada em uma placa de rocha.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('RockCarving', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Agape:
     $add_file('Memento', "Agape")
-    "You found a poem written in very old parchment: a small memento of Asterion's past.\n
-    You can read it by opening the Files in the menu."
+    "Você encontrou um poema escrito em um pergaminho muito antigo.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Agape', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_FieldWork:
     $add_file('Memento', "FieldWork")
-    "You found an old page torn off a book: a small memento of Asterion's past.\n
-    You can read it by opening the Files in the menu."
+    "Você encontrou uma página velha arrancada de um livro: uma pequena lembrança do passado de Astério.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('FieldWork', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_FoldedNote:
     $add_file('Memento', "FoldedNote")
-    "You found an old page torn off a book: a small memento of Asterion's past.\n
-    You can read it by opening the Files in the menu."
+    "Você encontrou uma nota dobrada: uma pequena lembrança do passado de Astério.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('FoldedNote', 'Exploration')
     jump EXrewardcheck
 
 label EXReward_Selene:
     $add_file('Memento', "Selene")
-    "You found a handwritten poem: a small memento of Asterion's past.\n
-    You can read it by opening the Files in the menu."
+    "Você encontrou um poema escrito à mão: uma pequena lembrança do passado de Astério.\n
+    Você pode ler abrindo os Arquivos no menu."
     $obtain_reward('Selene', 'Exploration')
     jump EXrewardcheck
 
@@ -586,172 +586,186 @@ label EXReward_Selene:
 
 label EXReward_Wine:
     $inventory.remove_item('Bundle')
-    you "So... how’d that go?"
+    you "Então... como foi?"
 
     if 'Luke' in exploration_team_names() and 'Kota' not in exploration_team_names():
-        $throwaway1 = 'we' if 'Asterion' in exploration_team_names() else 'I'
-        luke "[player_name],{w=0.2} [throwaway1] fucking did it.{w=0.2} Mission accomplished, pardner!"
+        $throwaway1 = 'nós conseguimos' if 'Asterion' in exploration_team_names() else 'eu consegui'
+        luke "[player_name],{w=0.2} [throwaway1].{w=0.2} Missão cumprida, parceiro!"
 
-        you "Really?{w} You sure you did it right?"
+        if throwaway1 == 'nós conseguimos':
+            you "Sério?{w} Tem certeza que fizeram direito?"
 
-        $Luke.change("arm", "pointing")
+            $Luke.change("arm", "pointing")
 
-        luke "Oh, you can bet the farm on it.{w=0.2} Just followed the instructions:
-        walked south and saw the plateau with a couple statues on top. It was impossible to miss, really!"
+            luke "Ah, pode apostar.{w=0.2} Simplesmente seguimos as instruções:
+            andamos na direção sul e vimos o planalto com algumas estátuas no topo. Era impossível errar, sério!"
+
+        else:
+            you "Sério?{w} Tem certeza que fez direito?"
+
+            $Luke.change("arm", "pointing")
+
+            luke "Ah, pode apostar.{w=0.2} Simplesmente segui as instruções:
+            andei na direção sul e vi o planalto com algumas estátuas no topo. Era impossível errar, sério!"
 
         $Luke.change("arm", "hip")
         $Luke.change("emotion", "neutral")
 
         if 'Asterion' in exploration_team_names():
             $Asterion.change("emotion", "sad")
-            luke "Now, when we got to the top, there were two statues:{w=0.2} a buff dude on a throne
-            and a chick with a spear, shield and funny helmet on it."
+            luke "Agora, quando a gente chegou no topo, tinha duas estátuas:{w=0.2} um cara bombado em um trono
+            e uma mulher com uma lança, escudo e usando um capacete engraçado."
 
-            luke "Y’see I was gonna go with the spear lady,{w=0.2} because she looked like those old
-            timey propaganda posters with the chick draped in the flag and shit.{w} Very vintage, you know?"
+            luke "Olha, eu ia na moça com a lança,{w=0.2} porque a pose dela parecia com aqueles pôsteres de propaganda
+            antigos com uma mulher atraente enrolada na bandeira e essas merdas.{w} Bem vintage, sabe?"
 
             $Luke.change("emotion", "annoyed")
-            luke "But Asterion convinced me otherwise and,{w=0.2} hey,{w=0.2} I’ll trust what he says
-            on these matters.{w} Besides, I had to throw the guy a bone, boss,{w=0.2}
-            he looked fucking miserable the entire way there."
+            luke "Mas Astério me convenceu do contrário e,{w=0.2} ei,{w=0.2} vou confiar no que ele diz
+            se tratando desses assuntos.{w} Além disso, eu tive que dar uma animada no cara, chefe,{w=0.2}
+            ele parecia péssimo pra caramba o caminho inteiro até aqui."
             $BundleSacrifice = 'Zeus'
 
             $Asterion.change("emotion", "tired")
-            luke "Not to mention the legless crawling lady things didn’t leave him alone."
+            luke "Sem falar nas mulheres rastejantes sem pernas, elas não deixavam ele em paz."
 
-            you "You mean like the one that jumped at me?"
+            you "Você quer dizer como aquela que pulou em mim?"
             $Luke.change("arm", "pointing")
 
             $Asterion.change("emotion", "sad")
-            luke "Bingo.{w=0.2} Now, I was doing fine, you know,{w=0.2} half bird and all.{w}
-            I’m light on my feet{w=0.2} — but, man, Asterion just had the worst fucking time.{w=0.2}
-            Those things went ballistic whenever they saw him. "
+            luke "Bingo.{w=0.2} Olha, eu indo bem, sabe,{w=0.2} metade pássaro e tudo.{w}
+            Eu sou ligeiro{w=0.2} — mas, cara, Astério acabou de passar o pior momento.{w=0.2}
+            Aquelas coisas ficavam doidas sempre que viam ele. "
 
             $Luke.change("arm", "hip")
-            luke "I know we’re kinda tight on time for that bottle thing, but please,{w=0.2}
-            next time spare the guy."
+            luke "Eu sei que a gente tá meio sem tempo com aquela coisa de garrafa mas, por favor,{w=0.2}
+            na próxima vez, poupa o cara de ter que ir lá."
 
         else:
-            luke "Now, when I got to the top, there were two statues:{w=0.2} a buff dude on a throne
-            and a chick with a spear, shield and funny helmet on it."
+            luke "Agora, quando eu cheguei no topo, tinha duas estátuas:{w=0.2} um cara bombado em um trono
+            e uma mulher com uma lança, escudo e usando um capacete engraçado."
 
-            luke "The dude on the throne looked {i}good{/i},{w=0.2} let me tell you,{w=0.2} so I was
-            gonna burn the thingy at his feet like a good boy."
+            luke "O cara no trono parecia {i}bem{/i},{w=0.2} deixa eu te contar,{w=0.2} então eu ia
+            queimar o negocinho nos pés dele como um bom menino."
 
             $Luke.change("emotion", "horny")
-            luke "But...{w=0.2} I don’t know,{w=0.2} call me a softy, but the chick got me nostalgic,
-            you know?{w} She looked like those old timey propaganda posters with the lady draped in
-            the flag and shit."
+            luke "Mas...{w=0.2} eu não sei,{w=0.2} me chama de frangote, mas a mulher me deixou nostálgico,
+            sabe?{w} A pose dela parecia com aqueles pôsteres de propaganda
+            antigos com uma mulher atraente enrolada na bandeira e essas merdas."
 
             $Luke.change("arm", "salute")
-            luke "It’s cheesy, I know, but I...{w=0.2} well, I put the bundle in front of her, lit it on fire,
-            and did a little salute."
+            luke "É cafona, eu sei, mas eu...{w=0.2} bem, eu coloquei o pacote na frente dela, queimei
+            e fiz uma pequena saudação."
             $BundleSacrifice = 'Athena'
 
             $Luke.change("emotion", "surprise")
-            luke "It was fucking scary, though.{w=0.2} On my way back the place was crawling with these weird
-            legless lady things."
+            luke "Mas foi assustador pra caralho.{w=0.2} Na volta, o lugar tava cheio daquelas mulheres sem perna
+            rastejando."
 
-            you "You mean like the one that jumped at me?"
+            you "Você quer dizer como aquela que pulou em cima de mim?"
 
             $Luke.change("arm", "pointing")
             $Luke.change("emotion", "neutral")
-            luke "Bingo.{w=0.2} Thankfully I’m light on my feet — you know,{w=0.2} half bird and all,{w=0.2}
-            so I’m here in one piece."
+            luke "Bingo.{w=0.2} Felizmente, eu sou ligeiro — sabe,{w=0.2} metade pássaro e tudo,{w=0.2}
+            então cheguei aqui inteirinho."
 
         $Luke.change("arm", "pointing")
         $Luke.change("emotion", "cocky")
-        luke "But what’s important is, go show that snake who’s boss, will ya?"
+        luke "Mas, o importante é, vá mostrar pra aquela cobra quem é que manda, beleza?"
 
     elif 'Luke' not in exploration_team_names() and 'Kota' in exploration_team_names():
-        $throwaway1 = 'We' if 'Asterion' in exploration_team_names() else 'I'
+        $throwaway1 = 'Nós' if 'Asterion' in exploration_team_names() else 'Eu'
 
-        kota "Mister [player_name], I’ll have you know that the task at hand is complete."
+        kota "Mestre [player_name], devo informar que a tarefa em mãos está completa."
 
-        you "That’s fantastic! Did you burn it in the right place?"
+        you "Isso é fantástico! Você queimou no lugar certo?"
         $Kota.change("emotion", "neutral")
         $Kota.change("leftarm", "relaxed")
         $Kota.change("rightarm", "raised")
-        kota "Well, there wasn’t much of a margin for error.{w=0.2} The instructions were very clear."
+        kota "Bem, não havia lá muita margem para erro.{w=0.2} As instruções foram muito claras."
 
         $Kota.change("rightarm", "relaxed")
         $Asterion.change("emotion", "sad")
-        kota "[throwaway1] walked south until we saw a small plateau with some large statues
-        on top of it,{w=0.2} then followed the path to the top."
+
+        if throwaway1 == 'Nós':
+            kota "[throwaway1] caminhamos para o sul até que vimos um pequeno planalto com algumas grandes estátuas
+            no topo,{w=0.2} então seguimos o caminho até lá."
+        else:
+            kota "[throwaway1] caminhei para o sul até que vi um pequeno planalto com algumas grandes estátuas
+            no topo,{w=0.2} então segui o caminho até lá."
 
         if 'Asterion' in exploration_team_names():
-            kota "So, atop the plateau there were two statues.
-            According to Asterion they represent Zeus and Athena."
+            kota "Então, no topo do planalto havia duas estátuas.
+            De acordo com Astério, elas representam Zeus e Atenas."
 
             $Kota.change("emotion", "puzzled")
             $Kota.change("leftarm", "raised")
-            kota "Now, I have heard quite a lot of outrageous stories about Zeus,{w=0.2} so I first
-            thought about doing a sacrifice to Athena.{w} But Asterion convinced me we should go
-            with Zeus instead,{w=0.2} and I will trust his judgement before mine in these matters."
+            kota "Bem, eu ouvi muitas histórias ultrajantes sobre Zeus,{w=0.2} então, primeiramente,
+            pensei em fazer um sacrifício a Atenas.{w} Mas Astério me convenceu de que deveríamos fazer
+            para Zeus,{w=0.2} e eu darei prioridade ao julgamento dele antes do meu nestes assuntos."
             $BundleSacrifice = 'Zeus'
             $Kota.change("emotion", "sad")
             $Asterion.change("emotion", "tired")
-            kota "Sadly,{w=0.2} our return was more complicated than our arrival.{w} These...{w=0.3}
-            legless,{w=0.2} wailing,{w=0.2} crawling creatures started approaching us."
+            kota "Infelizmente,{w=0.2} nosso retorno foi mais complicado que nossa chegada.{w} Aquelas...{w=0.3}
+            criaturas sem pernas,{w=0.2} uivantes{w=0.2} e rastejantes começaram a se aproximar de nós."
 
             $Kota.change("leftarm", "relaxed")
-            you "Oh right, one of those jumped at me yesterday."
+            you "Ah sim, uma delas pulou em mim ontem."
 
             $Kota.change("emotion", "puzzled")
-            kota "Yes, very unpleasant things.{w=0.2} Thankfully they didn’t come at me all at once."
+            kota "Sim, coisas bastante desagradáveis.{w=0.2} Felizmente, elas não vieram até mim todas de uma vez."
 
-            kota "Although I should say...{w=0.2} I may not look like it, but I can handle myself in
-            a physical altercation, so regardless I wasn't under any peril.{w}
-            But I don’t think I can say the same about Mister Asterion."
+            kota "Embora eu deva dizer...{w=0.2} Pode não parecer, mas posso me virar em
+            uma altercação física, então, independentemente, eu não estava sob nenhum perigo.{w}
+            Mas não acho que posso dizer o mesmo sobre o senhor Astério."
 
             $Kota.change("emotion", "sad")
             $Asterion.change("emotion", "sad")
-            kota "[player_name]...{w=0.2} I must implore you, please refrain from sending
-            Asterion to the valley again.{w} It felt like everything there — and I do not just
-            refer to just the creatures — was out to get him."
+            kota "[player_name]...{w=0.2} Eu devo implorá-lo, por favor, evite enviar Astério para
+            o vale novamente.{w} Parecia que tudo lá — e eu não me refiro
+            apenas às criaturas — queria pegá-lo."
 
             $Kota.change("emotion", "neutral")
-            kota "Thankfully we are both here in one piece and the sacrifice to the Gods is fulfilled.{w=0.2}
-            That is what matters."
+            kota "Felizmente, nós dois estamos aqui inteiros e o sacrifício aos Deuses foi cumprido.{w=0.2}
+            Isto é o que importa."
 
         else:
-            kota "So, atop the plateau there were two statues which...{w=0.2} based on my knowledge on Greek
-            deities should represent Zeus and Athena."
+            kota "Então, no topo do planalto havia duas estátuas que...{w=0.2} baseado em meu conhecimento sobre divindades
+            gregas, deveriam representar Zeus e Atenas."
 
             $Kota.change("emotion", "puzzled")
             $Kota.change("leftarm", "raised")
-            kota "Now, I have heard quite a lot of outrageous stories about Zeus, so I
-            put the bundle at Athena’s feet.{w=0.2} I burned it, recited a small prayer,
-            and went on my merry way."
+            kota "Já ouvi muitas histórias ultrajantes sobre Zeus, então coloquei
+            o pacote aos pés de Atenas.{w=0.2} O queimei, recitei uma pequena prece,
+            e segui meu caminho alegre."
             $BundleSacrifice = 'Athena'
             $Kota.change("emotion", "sad")
-            kota "...Which is what I would like to say but there was nothing merry about my return at all.{w}
-            On my way back these...{w=0.2} legless,{w=0.2} wailing,{w=0.2}
-            crawling creatures started approaching me."
+            kota "...Que é o que eu gostaria de dizer, mas não havia nada de alegre sobre o meu retorno.{w}
+            No meu caminho de volta, aquelas...{w=0.2} criaturas sem pernas,{w=0.2} uivantes{w=0.2}
+            e rastejantes começaram a se aproximar de mim."
 
             $Kota.change("leftarm", "relaxed")
-            you "Oh right, one of those jumped at me yesterday."
+            you "Ah, sim, uma delas pulou em mim ontem."
 
             $Kota.change("emotion", "happy")
-            kota "Thankfully they didn’t come at me all at once.{w=0.2} I may not look like it,
-            but I can handle myself in a physical altercation — still, avoiding conflict is always good."
+            kota "Felizmente, elas não vieram até mim de uma só vez.{w=0.2} Pode não parecer,
+            mas posso me virar em uma altercação física — ainda assim, evitar conflito é sempre bom."
 
-            kota "Regardless, what matters is: I am here in one piece,
-            and the sacrifice to the Gods is fulfilled."
+            kota "De qualquer forma, o que importa é: estou aqui inteiro e
+            o sacrifício aos Deuses foi cumprido."
 
-        you "Thank you,{w=0.2} Kota."
+        you "Obrigado,{w=0.2} Kota."
 
         $Kota.change("emotion", "laughing")
         $Kota.change("leftarm", "raised")
         $Kota.change("rightarm", "raised")
-        kota "Please, it was the least I could do.{w=0.2} Now, enough chit-chat,
-        I believe you have a reward to claim with a certain snake, do you not?"
+        kota "Por favor, era o mínimo que eu podia fazer.{w=0.2} Agora, chega de bate-papo,
+        acredito que você tem uma recompensa para reindivicar com uma certa cobra, não?"
 
     elif 'Luke' in exploration_team_names() and 'Kota' in exploration_team_names():
-        luke "Actually, boss, not bad. Not bad at all."
-        kota "Yes. I… we are happy to inform that the task is done."
+        luke "Na verdade, chefe, nada mal. Nem um pouco."
+        kota "Sim. Eu… nós ficamos felizes em informar que a tarefa está concluída"
 
-        you "That’s great! Did you guys run into any issues?"
+        you "Isso é ótimo! Vocês tiveram algum problema?"
 
         $Luke.change("emotion", "neutral")
         $Luke.change("arm", "hip")
@@ -759,81 +773,81 @@ label EXReward_Wine:
         $Kota.change("emotion", "neutral")
         $Kota.change("leftarm", "raised")
         $Kota.change("rightarm", "relaxed")
-        kota "Well, not at first."
+        kota "Bem, não no começo."
         $Kota.change("leftarm", "relaxed")
-        luke "See, getting to the plateau was the easy part. All we did was walk south and after
-        a while we did see the plateau in the distance, you couldn’t miss it."
+        luke "Sabe, chegar no planalto foi a parte fácil. Tudo o que fizemos foi andar na direção sul
+        e depois de um tempo vimos o planalto de longe, não dava pra perder."
         $Luke.change("emotion", "annoyed")
-        luke "I was expecting the snake to be lying and sending us on a wild goose chase
-        but we had no problem getting there."
+        luke "Eu achei que a cobra tava mentindo e mandando a gente pra uma busca com pouca chance de
+        encontrar o que se procura, mas a gente não teve problema pra chegar lá."
 
         if 'Asterion' not in exploration_team_names():
             $Luke.change("emotion", "neutral")
-            kota "Atop the plateau there were two statues, which based on my knowledge of Greek
-            deities represented Zeus and Athena."
+            kota "No topo do planalto havia duas estátuas que, com base no meu conhecimento das divindades
+            gregas, representavam Zeus e Atenas."
             $Kota.change("emotion", "happy")
             $Luke.change("emotion", "horny")
-            luke "It was funny, we just stopped for a second, looked at each other and decided to
-            go with the big dude in the throne."
+            luke "Foi engraçado, a gente parou por um segundo, olhou um pro outro e decidiu
+            ir com o cara grandão no trono."
             $BundleSacrifice = 'Zeus'
-            you "Well, I’m happy to see you’re both getting along better."
+            you "Bem, fico feliz em ver que vocês dois estão se dando melhor."
             $Luke.change("emotion", "annoyed")
             $Kota.change("emotion", "sad")
-            kota "Well, I would say cooperation became a necessity, because of what happened next."
+            kota "Bem, eu diria que a cooperação tornou-se uma necessidade, por causa do que aconteceu depois."
             $Luke.change("arm", "pointing")
-            luke "Yeah, I think that fucking asshole sent us to an ambush, because when we started
-            walking back these legless screaming things started crawling toward us."
-            you "Oh, yes, I think one of those jumped at me yesterday."
-            luke "Yeah, it was spooky shit."
+            luke "Sim, acho que aquele cuzão de merda nos mandou pra uma emboscada, porque quando a gente
+            começou a andar de volta, aquelas coisas sem pernas gritando começaram a rastejar na nossa direção."
+            you "Ah, sim, acho que uma dessas pulou em mim ontem."
+            luke "Sim, foi uma merda sinistra."
             $Luke.change("arm", "hip")
-            kota "Well, thankfully, they didn’t come at us all at once. I am… let’s just say, not
-            a good runner, so we had to kick some of those out of our way."
+            kota "Bem, felizmente, elas não vieram até nos de uma só fez. Eu não sou… digamos, um
+            bom corredor, então tivemos que chutar algumas delas para fora do nosso caminho."
             $Luke.change("emotion", "cocky")
-            luke "I’ll be honest, I’m impressed with dragon boy here. Wouldn’t mind going a round
-            or two with him."
+            luke "Vou ser honesto, eu tô impressionado com o menino dragão aqui. Não me importaria de ir uma
+            ou duas rodadas com ele."
             pause 1.0
             $Kota.change("emotion", "angry")
-            kota "I {i}hope{/i} you mean a fight."
+            kota "Eu {i}espero{/i} que você esteja falando de uma luta."
             $Luke.change("emotion", "horny")
             $Luke.change("arm", "pointing")
-            luke "Whatever you want to call it."
+            luke "O que você quiser chamar."
             $Luke.change("arm", "hip")
             pause 1.0
 
         else:
             $Luke.change("emotion", "neutral")
-            kota "Atop the plateau there were two statues, which Asterion explained represent Zeus
-            and Athena. He suggested burning the bundle at the bottom of Zeus’ throne and we all agreed.
-            It was a simple task."
+            kota "No topo do planalto havia duas estátuas, que Astério explicou representarem Zeus
+            e Atenas. Ele sugeriu queimar o pacote na base do trono de Zeus e todos concordamos.
+            Foi uma tarefa simples."
             $BundleSacrifice = 'Zeus'
             $Luke.change("emotion", "annoyed")
             $Kota.change("emotion", "sad")
             $Asterion.change("emotion", "tired")
-            luke "Now the hard part was getting back, because let me tell you, I think that fucking
-            asshole sent us to an ambush, because when we started walking back these legless
-            screaming things started crawling toward us."
-            you "Oh, yes, I think one of those jumped at me yesterday."
+            luke "Agora a parte difícil foi voltar, porque, deixa eu te contar, acho que aquele
+            cuzão mandou a gente pra uma emboscada, porque quando a gente começou a andar de volta,
+            aquelas coisas sem pernas gritando começaram a rastejar na nossa direção."
+            you "Ah, sim, acho que uma dessas pulou em mim ontem."
             $Luke.change("arm", "pointing")
-            luke "Yeah it was spooky shit."
+            luke "Sim, foi uma merda sinistra."
             $Luke.change("arm", "hip")
             $Kota.change("rightarm", "raised")
-            kota "Alas, they all went straight for Asterion. Mister [player_name], I know it was
-            imperative to get all the help we could get this one time, but please,
-            unless it is absolutely necessary, refrain from doing it in the future."
+            kota "Infelizmente, todas elas foram direto para Astério. Mestre [player_name], sei que era
+            imperativo obter toda a ajuda que pudéssemos desta vez, mas, por favor,
+            a não ser que seja absolutamente necessário, evite enviá-lo no futuro."
 
             $Kota.change("rightarm", "relaxed")
             $Asterion.change("emotion", "sad")
-            luke "It wasn’t just the creatures, boss. The soil, the grass, the roots, the insects;
-            everything was out to get him. He had a miserable time."
+            luke "Não foram só as criaturas, chefe. O solo, a grama, as raízes, os insetos;
+            tudo queria pegar ele. Ele teve uma péssima experiência."
             $Luke.change("emotion", "neutral")
 
         $Kota.change("emotion", "neutral")
         $Kota.change("leftarm", "raised")
         $Kota.change("rightarm", "raised")
-        kota "We’re back in one piece, which is what’s important."
+        kota "Estamos de volta inteiros, o que é importante."
         $Luke.change("emotion", "cocky")
         $Luke.change("arm", "pointing")
-        luke "Yeah, now go show that snake who’s boss, will ya?"
+        luke "Sim, agora mostra àquela cobra quem é o chefe, beleza?"
 
     else:
         $Asterion.change("emotion", "sad")
@@ -844,33 +858,33 @@ label EXReward_Wine:
             ease 0.05 xalign 0.5
             repeat
         pause 2.0
-        asterion "I- I…"
+        asterion "Eu- Eu…"
         $Asterion.change("emotion", "bowing")
         $Asterion.change("leftarm", "raised")
-        asterion "I completed the task, Master."
+        asterion "Eu completei a tarefa, Mestre."
         pause 1.0
         show Asterion:
             ease 0.05 xalign 0.5
-        you "I’m sorry for sending you out. It was the only way to get the bottle."
+        you "Sinto muito por mandar você para fora. Era o único jeito de conseguir a garrafa."
         $Asterion.change("leftarm", "loose")
         pause 3.0
         $Asterion.change("emotion", "sad")
-        "Asterion doesn’t respond. He has a hard time maintaining eye contact with you."
+        "Astério não responde. Ele tem dificuldade em manter contato visual com você."
         pause 1.0
-        you "I’m sorry."
+        you "Sinto muito."
         pause 2.0
-        "After a while, Asterion regains his composure, and slowly bows to you."
+        "Depois de um tempo, Astério recupera a compostura e lentamente se curva para você."
         $Asterion.change("emotion", "bowing")
         $Asterion.change("leftarm", "raised")
-        asterion "Please, Master, don’t be. What matters is that the sacrifice is complete.
-        I put the bundle next to a statue of Zeus at the shrine and set it on fire,
-        and made it back. That is what matters."
+        asterion "Por favor, Mestre, não sinta. O que importa é que o sacrifício está completo.
+        Eu coloquei o pacote ao lado de uma estátua de Zeus no santuário e o queimei,
+        e consegui voltar. Isto é o que importa."
         $BundleSacrifice = 'Zeus'
         pause 1.0
         $Asterion.change("emotion", "tired")
         $Asterion.change("leftarm", "loose")
-        asterion "I-I do believe Argos is waiting for you, Master."
-        you "Yes, I’ll go meet him right away."
+        asterion "Eu-eu acredito que Argos esteja esperando por você, Mestre."
+        you "Sim, vou me encontrar com ele agora mesmo."
 
     $obtain_reward('Wine', 'Exploration')
     #$add_file('Artifact', "Wine")
@@ -887,93 +901,93 @@ label RandomTabletReward:
     play sound "sfx/asterionchord.mp3"
     if throwaway3 == 'Tablet1':
         $add_file('Memento', "Tablet1")
-        "You obtained a clay tablet narrating a dutiful son's journey to Crete.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila narrando a jornada de um filho devoto a Creta.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet1', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet2':
         $add_file('Memento', "Tablet2")
-        "You obtained a clay tablet narrating a cursed family's arrival to Crete.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila narrando a chegada de uma família amaldiçoada em Creta.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet2', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet3':
         $add_file('Memento', "Tablet3")
-        "You obtained a clay tablet narrating a rare audience with an ancient king.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila narrando uma rara audiência com um rei antigo.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet3', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet4':
         $add_file('Memento', "Tablet4")
-        "You obtained a clay tablet narrating an intervention from a concerned youth.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila narrando uma intervenção de uma jovem preocupada.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet4', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet5':
         $add_file('Memento', "Tablet5")
-        "You obtained a clay tablet narrating a man's encounter with one of divine nature.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila narrando o encontro de um homem com outro de natureza divina.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet5', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet6':
         $add_file('Memento', "Tablet6")
-        "You obtained a clay tablet revealing a child's hospitality.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila revelando a hospitalidade de uma criança.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet6', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet7':
         $add_file('Memento', "Tablet7")
-        "You obtained a clay tablet narrating a small tragedy of human folly.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila narrando uma pequena tragédia da loucura humana.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet7', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet8':
         $add_file('Memento', "Tablet8")
-        "You obtained a clay tablet depicting a scene of treachery.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábia de argila retratando uma cena de traição.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet8', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet9':
         $add_file('Memento', "Tablet9")
-        "You obtained a clay tablet narrating a small tragedy of human folly.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila uma pequena tragédia da loucura humana.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet9', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet10':
         $add_file('Memento', "Tablet10")
-        "You obtained a clay tablet revealing a bastard tempting a pious youth away from his duty.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila revelando um bastardo tentando um jovem devoto a se afastar para longe de seu dever.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet10', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet11':
         $add_file('Memento', "Tablet11")
-        "You obtained a clay tablet revealing one of many tragedies leading to a boy's demise.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila revelando uma das muitas tragédias que levaram à morte de um menino.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet11', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet12':
         $add_file('Memento', "Tablet12")
-        "You obtained a clay tablet revealing a hybrid's foul nature.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila revelando a natureza suja de um híbrido.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet12', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet13':
         $add_file('Memento', "Tablet13")
-        "You obtained a clay tablet revealing the hybrid's despondency.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila revelando o desânimo do híbrido.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet13', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet14':
         $add_file('Memento', "Tablet14")
-        "You obtained a clay tablet revealing one of many tragedies leading to a boy's demise.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila revelando uma das muitas tragédias que levaram à morte de um menino.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet14', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet15':
         $add_file('Memento', "Tablet15")
-        "You obtained a clay tablet revealing a prisoner's last shred of hope.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila revelando o último resquício de esperança de um prisioneiro.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet15', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet16':
         $add_file('Memento', "Tablet16")
-        "You obtained a clay tablet depicting a crime against divine order.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila retratando um crime contra a vontade divina.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet16', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet17':
         $add_file('Memento', "Tablet17")
-        "You obtained a clay tablet revealing a prisoner's liberation.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila revelando a libertação de um prisioneiro.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet17', 'Exploration', subtract=False)
     elif throwaway3 == 'Tablet18':
         $add_file('Memento', "Tablet18")
-        "You obtained a clay tablet revealing an ominous fate.\n
-        You can read it by opening the Files in the menu."
+        "Você obteve uma tábua de argila revelando um destino sinistro.\n
+        Você pode ler abrindo os Arquivos no menu."
         $obtain_reward('Tablet18', 'Exploration', subtract=False)
     $ renpy.jump(nextLabel)
 
