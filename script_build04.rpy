@@ -5670,7 +5670,7 @@ label build04:
     "O corredor se esvazia quando ele vai para a loja. Pedem-no para sair da lanchonete
     com um bilhete na sacola para não comer lá dentro. Bom o suficiente para seu dinheiro roubado, mas não para sua presença."
 
-    "Falhar. Tentar novamente. Falhar pior. Ir para casa."
+    "Falhar. Tentar novamente. Falhar pior ainda. Ir para casa."
 
     $renpy.music.set_volume(1.0, delay=1, channel='sound')
 
@@ -5706,7 +5706,7 @@ label build04:
     quebradiço barulho de papel. Ele o verifica antes de continuar."
 
     "???" "Mais uma vez, desculpe incomodar. E eu sei que o que eu estou prestes a dizer vai soar estranho,
-    mas por acaso você é o proprietário ou mora em um hotel?"
+    mas por acaso você é o proprietário de um ou mora em um hotel?"
 
     pause 1
 
@@ -5733,7 +5733,7 @@ label build04:
 
     pause 2.0
 
-    stormq "Cê deve ter achado o cara errado."
+    stormq "Achou a pessoa errada."
 
     "O estranho intercala o peso entre as pernas. Possivelmente franze a testa, mas o minotauro não
     consegue dizer com certeza — é como se houvesse um buraco onde o rosto do homem deveria estar."
@@ -5873,7 +5873,7 @@ label build04:
     $P.change('emotion', 'dominant')
     $P.change('rightarm', 'pointing')
 
-    p "E deixa eu te contar, encontrar você não foi uma tarefa fácil. Quanto mais perto eu chegava dessa lagoa,
+    p "E, deixa eu te contar, encontrar você não foi uma tarefa fácil. Quanto mais perto eu chegava dessa lagoa,
     menos sentido as estradas faziam. Tem alguma coisa estranha acontecendo aqui."
 
     $Storm.change("emotion", "neutral")
@@ -6085,12 +6085,12 @@ label build04:
     $Storm.change("emotion", "neutral")
     show Storm:
         ease 2.0 yalign 1.0
-    stormq "Cê não precisa mentir. Nada disso pode ser verdade, e se for, eu sei que você
+    stormq "Não precisa mentir. Nada disso pode ser verdade, e se for, eu sei que você
     deve querer alguma coisa a mais."
 
     stormq "Ainda não me convenci que você não é um demônio, senhor, ou se você tá atrás de mais alguma coisa."
 
-    stormq "Mas mesmo que você seja, e tem a intenção de levar a minha alma, considere
+    stormq "Mas mesmo que você seja, e tem a intenção de levar a minha alma, pode considerar
     o trato feito. Eu vou fazer o trabalho e qualquer outra coisa que você pedir."
 
     $Storm.change("emotion", "sad")
@@ -6166,7 +6166,7 @@ label build04:
     "Seu peito incha quando ele se lembra de um apelido do qual se orgulhava — e como ele se sentia poderoso
     quando as pessoas o falavam."
 
-    storm "Então... pode me chamar de Tempestade. É como as pessoas me chamavam."
+    storm "Então... pode me chamar de Furacão. É como as pessoas me chamavam."
 
     $P.change('emotion', 'content')
     p "Tempestade? Muito bem. Prazer em conhecê-lo."
@@ -6216,7 +6216,7 @@ label build04:
     pause 2.0
 
     $Storm.change('emotion', 'neutral')
-    storm "Mas é bom pra pescar. A água é fria que só a mulesta, e com vento igual um tornado."
+    storm "Mas é bom pra pescar. A água é bem fria, e venta igual um tornado."
 
     pause 2.3
 
@@ -6357,7 +6357,7 @@ label build04:
     Mas agora, vamos ser honestos aqui por um minuto."
 
     $P.change('rightarm', 'pointing')
-    p "Olha, rapaz, supondo por um momento que o seu pai seja alguém como eu você,
+    p "Olha, rapaz, supondo por um momento que o seu pai seja alguém como eu e você,
     estou fazendo o que ele deveria ter feito há vinte anos."
 
     p "Então, aqui estão suas opções. Você pode ficar aqui, se comportar, e eu vou te ensinar tudo
@@ -6596,12 +6596,12 @@ label build04:
     show Storm:
         ease 2.0 xalign 0.2
 
-    storm "Você também… pra um moço da cidade."
+    storm "Você também… pra alguém da cidade."
 
     $P.change('emotion', 'dominant')
     $P.change('rightarm', 'palm')
 
-    p "Não me provoque; você não tem ideia do que esse moço da cidade é capaz."
+    p "Não me provoque; você não tem ideia do que esse homem da cidade é capaz."
 
     $Storm.change('emotion', 'happy')
     storm "Tá… então,{w=0.3} belo aperto pra um coroa."
@@ -7066,7 +7066,7 @@ label build04:
     \nNão verão tua origem, mas contemplarão tua oferenda."
 
     p "Não serás posto de lado, e a glória seguirá teus passos.
-    \n\nPelo sal e pelo mar, pegue meu fio de vida,
+    \n\nPelo sal e pelo mar, pegue meu fio vital,
     \nvamos fazer um juramento de parentesco."
 
     p "Que a humanidade receba o portador desta promessa de proteção em seu seio,
