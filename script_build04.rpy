@@ -294,7 +294,7 @@ label build04:
 
     asterion "Está... Eu não consigo ver nada, estou fazendo errado?"
 
-    you "Não, está tudo bem, ainda não desbloqueei."
+    you "Não, tudo bem, ainda não desbloqueei."
 
     you "Aqui, basta pressionar esse botão e..."
     play sound "sfx/itemget.ogg"
@@ -318,7 +318,7 @@ label build04:
 
     asterion "No entanto... Espero não ter imposto uma tarefa a você. \"Configurar\" foi difícil?"
 
-    you "De forma alguma, todos os tablets vêm com configurações de acessibilidade. Adaptá-lo às
+    you "De forma alguma, todos os tablets vêm com configurações de acessibilidade. Adaptar ele às
     suas necessidades é uma questão trivial."
 
     "\"Acessibilidade.\" Apenas humanos poderiam imaginar tal coisa. Os deuses não amavam
@@ -437,7 +437,7 @@ label build04:
     "Pelos deuses, eu deveria contar para ele que parece como se eu estivesse virando pedra. [player_name]
     deve saber o que significa e o que eu deveria fazer."
 
-    you "Asterion?"
+    you "Astério?"
 
     "Mas deve haver uma pegadinha com ele. Sempre tem uma."
 
@@ -622,7 +622,7 @@ label build04:
 
     "E então suaviza. Sua voz, assim que sai, soa como veludo."
 
-    you "É claro que você pode. Você manteve este hotel funcionando por tanto tempo, memorizar um
+    you "É claro que você pode. Manteve esse hotel funcionando por tanto tempo, memorizar um
     alfabeto não vai ser difícil para você."
 
     scene bg oldquarters
@@ -820,9 +820,9 @@ label build04:
     asterion "É... É {i}minha{/i} língua. Era cretense, costumava ser,
     mas com o tempo eu simplesmente... Se tudo é traduzido, então eu poderia consertá-la e torná-la minha."
 
-    asterion "Eu tinha dificuldade com certos sons. Então, simplesmente a mudei, deixava de um jeito que parecesse certo."
+    asterion "Eu tinha dificuldade com certos sons. Então, simplesmente a mudei, deixei de um jeito que parecia certo."
 
-    asterion "Então... Costumava ser minóico, mas não é mais. É minha língua."
+    asterion "Então... Costumava ser minoico, mas não é mais. É minha língua."
 
     pause 1.0
     $renpy.music.set_volume(0.2, delay=1, channel='music')
@@ -1009,7 +1009,7 @@ label build04:
 
         asterion "O-o que? Mas por que?"
 
-        you "Por que eu posso simplesmente fazer as coisas surgirem do nada, por que não usar isso
+        you "Porque eu posso simplesmente fazer as coisas surgirem do nada, por que não usar isso
         para fazer algo divertido e agradável assim?"
 
         $Asterion.change ("emotion", "tired")
@@ -1087,7 +1087,7 @@ label build04:
 
         asterion "Passos de bebê?"
 
-        you "Quer dizer, vá com calma, você vai aprender com o tempo. Vamos manter simples por enquanto
+        you "Quer dizer, vai com calma, você vai aprender com o tempo. Vamos manter simples por enquanto
         — tem mais alguma coisa que você gostaria de pesquisar?"
 
 
@@ -1181,7 +1181,7 @@ label build04:
 
         $Asterion.change ("emotion", "neutral")
 
-        you "Quer saber, posso salvar essa página nos favoritos e podemos conferir mais tarde."
+        you "Quer saber, posso salvar essa página nos favoritos e a gente confere mais tarde."
 
         you "Mas sim, você pode encontrar instruções detalhadas sobre como cozinhar praticamente
         qualquer coisa na internet — e isso nem envolve cursos online detalhados..."
@@ -4329,11 +4329,11 @@ label build04:
     devido respeito em nossa própria lareira e construir um santuário ao redor dela."
 
     $Kota.change("emotion", "puzzled")
-    kota "Asterion?"
+    kota "Astério?"
 
     "Froneu" "Você pode ter sua liberdade se construirmos nossa fé."
 
-    kota "Asterion? Você está me ouvindo?"
+    kota "Astério? Você está me ouvindo?"
 
     stop music fadeout 2.0
 
