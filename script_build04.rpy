@@ -7325,43 +7325,4 @@ label build4_safe_end:
     gruggy "Você agora será levado de volta a um local seguro para salvar o jogo para a próxima atualização.
     Até lá, tchauzin!"
 
-    gruggy "..."
-
-    gruggy "Oi, vou possuir essa criaturinha pra falar um pouco aqui porque agora eu tenho o poder, entendeu? :v."
-
-    gruggy "Enfim, eu sou o tradutor dessa belezura. Espero que tenham gostado da tradução, demorou
-    pra caramba pra terminar isso e fiz com todo carinho, então, considerem avaliar o jogo e deixar uma resenha. (Com considerações à tradução também, rs)."
-
-    gruggy "Isso provavelmente não vai passar despercebido (oi, gente :P) e os moços da equipe vão ver porque a pesquisa e os outros links
-    tão em inglês e acho que vão mudar pra versões em português, mas enfim. E se passar, passou, shh, não conta pra ninguém."
-
-    gruggy "Na verdade, provavelmente essa parte inteira vai ter uma reformulação pra versão em português, agora que penso nisso,
-    acho que nem precisava traduzir ela..."
-
-    gruggy "Droga."
-
-    gruggy "Mas, seguindo, quero dizer que foi uma grande honra traduzir isso e posso dizer -- agora que sei de tudo desse jogo, mwahahaha --
-    que Minotaur Hotel é bom pra caralho e com certeza uma das melhores visual novels do itch.io inteiro."
-
-    gruggy "Isso aqui é muito melhor que livro convencional ou série de TV. A comunidade furry (principalmente os conterrâneos viado igual eu) é cheia de gente talentosa,
-    diga-se de passagem. Muito obrigado, Carbon e Nanoff, pela oportunidade e André, Grixis e Kopten pelas ressalvas e ajuda com as partes que fiquei empacado."
-
-    gruggy "Sobre o jogo, recomendo especialmente que deem um jeito de achar todos os objetos do vale, mesmo que precisem enviar o coitado do Astério pra lá,
-    ninguém precisa saber :P. A história das tábuas é muito legal e explica bastante coisa que fica no ar."
-
-    gruggy "E aliás, uma curiosidade antes de continuar:"
-
-    gruggy "Até chegar na parte onde se apresenta a Internet ao Astério, eu não sabia que o nome tinha tradução e usei o original (Asterion), que na minha cabeça
-    soava melhor, mas que depois comecei a me acostumar e, já que todos os outros nomes gregos foram traduzidos, acabei me sentindo na obrigação de mudar esse também."
-
-    gruggy "Moral da história: mesmo que hajam traduções horríveis de nomes gregos como 'Gerião' e 'Deucalião', se você fica na companhia deles por tempo suficiente,
-    acaba se acostumando."
-
-    gruggy "Enfim, vou deixar o textão pra minha resenha do jogo que vou refazer, melhor não colocar muita coisa aqui."
-
-    gruggy "Por fim, o merchan, que eu não sou besta. Me sigam aí no twitter (@erniemesh) que vai ter uma surpresa lá quando eu terminar um negócio aqui.
-    Dica: tradução de outra visual novel. E também, pretendo me aventurar no mundo das VNs futuramente, ainda vai demorar bastante, mas segue lá pra não perder quando sair."
-
-    gruggy "Enfim, é isso. Tchauzin."
-
     jump build4_safe_end
